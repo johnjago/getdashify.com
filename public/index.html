@@ -19,27 +19,36 @@
 	<!-- <script type="text/javascript" src="https://livejs.com/live.js"></script> -->
 </head>
 <body class="font-sans bg-gray-50">
-	<header class="sticky top-0 bg-white shadow-lg">
-		<div class="flex justify-between items-center p-4 max-w-7xl mx-auto">
-			<a href="/">
-				<img src="images/logo.svg" width="80" alt="Dashify logo">
-			</a>
-			<nav class="text-gray-600 font-semibold">
-				<a href="#pricing" class="ml-8 hover:text-[#9D6095] transition hidden sm:inline">Pricing</a>
-				<a href="https://forms.gle/pRezSbdUcZmvZdX27" class="ml-8 hover:text-[#9D6095] transition">Help</a>
-				<a href="https://wordpress.org/plugins/dashify/" class="ml-8 px-4 py-2 rounded-full bg-gray-800 text-gray-50 hover:bg-[#9D6095] transition">Download</a>
-			</nav>
+	<header class="sticky top-0 h-0">
+		<div id="navbar" class="z-10 backdrop-blur-xl transition bg-[#ffffff10] border-b border-b-[#ffffff15]">
+			<div class="flex justify-between items-center p-4 max-w-7xl mx-auto">
+				<a href="/">
+					<div id="nav-logo" class="bg-gray-50 w-[80px] h-[40px]"></div>
+				</a>
+				<nav class="text-gray-50 font-semibold">
+					<a href="/#features" class="ml-8 transition hover:underline hover:underline-offset-4">Features</a>
+					<a href="/#pricing" class="ml-8 transition hidden sm:inline hover:underline hover:underline-offset-4">Pricing</a>
+					<a href="https://forms.gle/pRezSbdUcZmvZdX27" class="ml-8 transition hidden sm:inline hover:underline hover:underline-offset-4">Help</a>
+					<a
+						id="nav-download-link"
+						href="https://wordpress.org/plugins/dashify/"
+						class="ml-8 px-4 py-2 rounded-full border border-gray-50 text-gray-50 transition hover:bg-gray-50 hover:text-gray-800"
+					>
+						Download
+					</a>
+				</nav>
+			</div>
 		</div>
 	</header>
-	<main class="">
-		<section class="py-32 px-4 text-center bg-gradient-to-b from-[#9D6095B3] to-[#E8A04DB3]">
+	<main>
+		<section class="pt-40 pb-32 px-4 text-center bg-gradient-to-b from-[#9D6095B3] to-[#E8A04DB3]">
 			<h1 class="text-white text-5xl font-bold mb-16">Better WooCommerce order management.</h1>
 			<img src="images/dashify-order-list.png" alt="Screenshot of the WooCommerce order list page with Dashify styles and functionality." class="max-w-full w-3/4 lg:max-w-7xl lg:w-none mx-auto rounded-lg shadow-2xl">
 			<p class="text-white text-3xl font-semibold mt-16 mb-12">Search, navigate, and manage orders faster with Dashify.</p>
 			<a href="https://wordpress.org/plugins/dashify/" class="py-4 px-6 rounded-full bg-gray-800 text-gray-50 text-lg font-semibold hover:shadow-lg transition">Get Dashify for free</a>
 		</section>
 
-		<section class="pt-16 px-4 max-w-7xl mx-auto">
+		<section id="features" class="pt-16 px-4 max-w-7xl mx-auto scroll-mt-16">
 			<h2 class="text-4xl text-center font-bold text-gray-700 mb-8">How does Dashify make WooCommerce better?</h2>
 			<div class="flex flex-row flex-wrap justify-between mb-16">
 				<div class="lg:flex flex-col justify-evenly border p-8 lg:basis-[48%] bg-white rounded-lg m-0.5 mt-8">
@@ -194,7 +203,7 @@
 			</div>
 		</section>
 
-		<section id="pricing" class="py-16 px-4 bg-white border-t">
+		<section id="pricing" class="py-16 px-4 bg-white border-t scroll-mt-16">
 			<h2 class="text-4xl text-center font-bold text-gray-700 mb-8">Pricing</h2>
 			<div class="flex flex-row flex-wrap justify-evenly mt-16 mb-8">
 				<div class="flex flex-col w-96 mb-8">
@@ -243,6 +252,30 @@
 				{ weekday: 'long' }
 			);
 			document.querySelector('#day').textContent = dayOfWeekName;
+		});
+	</script>
+	<script>
+		window.addEventListener('scroll', function() {
+			const navbar = document.querySelector('#navbar');
+			const logo = document.querySelector('#nav-logo');
+			const links = document.querySelectorAll('nav a');
+			const downloadLink = document.querySelector('#nav-download-link');
+
+			if (window.scrollY > 50) {
+				navbar.classList.add('bg-[#ffffff56]', 'shadow-sm');
+				logo.classList.add('bg-gray-800')
+				for (const link of links) {
+					link.classList.add('text-gray-800');
+				}
+				downloadLink.classList.add('border-gray-800', 'hover:bg-gray-800', 'hover:text-gray-50');
+			} else {
+				navbar.classList.remove('bg-[#ffffff56]', 'shadow-sm');
+				logo.classList.remove('bg-gray-800')
+				for (const link of links) {
+					link.classList.remove('text-gray-800');
+				}
+				downloadLink.classList.remove('border-gray-800', 'hover:bg-gray-800', 'hover:text-gray-50');
+			}
 		});
 	</script>
 </body>
