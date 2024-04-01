@@ -1,11 +1,11 @@
 {
 	"scripts": {
-		"dev": "npx tailwindcss -i ./main.css -o ./public/main.out.css --watch",
+		"dev": "tailwindcss -i ./main.css -o ./public/main.out.css --watch",
 		"serve": "http-server .",
-		"build": "npx tailwindcss -i main.css -o ./public/main.out.css"
+		"build": "tailwindcss -i main.css -o ./public/main.out.css"
 	},
 	"devDependencies": {
 		"http-server": "^14.1.1",
-		"tailwindcss": "^3.4.1"
+		"tailwindcss": "^3.4.3"
 	}
 }

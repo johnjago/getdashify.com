@@ -267,6 +267,7 @@
 				for (const link of links) {
 					link.classList.add('text-gray-800');
 				}
+				downloadLink.classList.remove('hover:text-gray-800');
 				downloadLink.classList.add('border-gray-800', 'hover:bg-gray-800', 'hover:text-gray-50');
 			} else {
 				navbar.classList.remove('bg-[#ffffff56]', 'shadow-sm');
@@ -275,6 +276,7 @@
 					link.classList.remove('text-gray-800');
 				}
 				downloadLink.classList.remove('border-gray-800', 'hover:bg-gray-800', 'hover:text-gray-50');
+				downloadLink.classList.add('hover:text-gray-800');
 			}
 		});
 	</script>
