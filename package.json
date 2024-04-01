@@ -1,6 +1,6 @@
 {
 	"scripts": {
-		"tailwind": "npx tailwindcss -i ./main.css -o ./public/main.out.css --watch",
+		"dev": "npx tailwindcss -i ./main.css -o ./public/main.out.css --watch",
 		"serve": "http-server .",
 		"build": "npx tailwindcss -i main.css -o ./public/main.out.css"
 	},
