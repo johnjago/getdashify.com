@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 #nav-logo {
-	mask-image: url(images/logo.svg);
+	mask-image: url(/images/logo.svg);
 	mask-size: contain;
 	mask-repeat: no-repeat;
 }

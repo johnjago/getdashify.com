@@ -1,7 +1,7 @@
 {
 	"scripts": {
 		"dev": "tailwindcss -i ./main.css -o ./public/main.out.css --watch",
-		"serve": "http-server .",
+		"serve": "http-server public/",
 		"build": "tailwindcss -i main.css -o ./public/main.out.css"
 	},
 	"devDependencies": {
