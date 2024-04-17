@@ -1,10 +1,13 @@
 {
 	"scripts": {
-		"dev": "tailwindcss -i ./main.css -o ./public/main.out.css --watch",
-		"serve": "http-server public/",
-		"build": "tailwindcss -i main.css -o ./public/main.out.css"
+		"dev": "concurrently npm:watch-css npm:serve",
+		"watch-css": "tailwindcss -i ./main.css -o ./public/main.out.css --watch",
+		"build-css": "tailwindcss -i main.css -o ./public/main.out.css",
+		"serve": "http-server public/"
 	},
 	"devDependencies": {
+		"@tailwindcss/typography": "^0.5.12",
+		"concurrently": "^8.2.2",
 		"http-server": "^14.1.1",
 		"tailwindcss": "^3.4.3"
 	}
