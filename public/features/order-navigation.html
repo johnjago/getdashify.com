@@ -75,10 +75,39 @@
 		</a>
 		</section>
 	</main>
-	<footer class="bg-gray-700 text-gray-50 py-12 px-4">
-		<div class="flex flex-row justify-between max-w-7xl mx-auto font-semibold">
-		<p>&copy; Dashify 2024</p>
-		<p>Enjoy the rest of your <span id="day"></span>!</p>
+	<footer class="bg-gray-700 text-gray-50 py-12">
+		<div class="max-w-7xl mx-auto font-semibold px-4">
+			<div class="flex flex-col gap-8 md:flex-row md:justify-between">
+				<div>
+					<h2 class="text-xl font-bold mb-4">Blog</h2>
+					<ul class="flex flex-col gap-2 text-gray-200">
+						<li>
+							<a href="/blog/change-order-status-in-woocommerce" class="underline decoration-gray-500">How to change order status in WooCommerce</a>
+							<span class="ml-1 inline-block -rotate-6 bg-green-100 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">New</span>
+						</li>
+					</ul>
+				</div>
+				<div class="flex flex-col">
+					<h2 class="text-xl mb-4">Help</h2>
+					<ul class="flex flex-col gap-2 text-gray-200">
+						<li><a href="https://forms.gle/pRezSbdUcZmvZdX27" class="underline decoration-gray-500">Report a bug</a></li>
+						<li><a href="https://forms.gle/pRezSbdUcZmvZdX27" class="underline decoration-gray-500">Request a feature</a></li>
+					</ul>
+				</div>
+				<div>
+					<h2 class="text-xl font-bold mb-4">About Dashify</h2>
+					<ul class="flex flex-col gap-2 text-gray-200">
+						<!-- <li><a href="/about" class="underline decoration-gray-500">Why we made Dashify</a></li> -->
+						<li><a href="/privacy" class="underline decoration-gray-500">Privacy</a></li>
+						<li><a href="/terms" class="underline decoration-gray-500">Terms</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="border-t border-t-gray-600 flex justify-between pt-4 mt-12 text-gray-400">
+				<p>&copy; Dashify 2024</p>
+				<p class="">Enjoy the rest of your <span id="day"></span>!</p>
+			</div>
+		</div>
 	</footer>
 	<script>
 		document.addEventListener('DOMContentLoaded' , () => {

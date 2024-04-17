@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>How to change order status in WooCommerce (for beginners, no extra plugins) - Dashify Blog</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="description" content="This is a simple, easy-to-follow guide on all the ways you, as a merchant, can manually change the order status of an order in WooCommerce. This guide doesn’t require you to download any plugins or write any code. We show how to change the order status in a standard WooCommerce install.">
+	<link rel="icon" href="/images/icon.svg">
+	<link href="/main.out.css" rel="stylesheet">
+	<meta property="og:title" content="How to change order status in WooCommerce (for beginners, no extra plugins)">
+	<meta property="og:description" content="This is a simple, easy-to-follow guide on all the ways you, as a merchant, can manually change the order status of an order in WooCommerce. This guide doesn’t require you to download any plugins or write any code. We show how to change the order status in a standard WooCommerce install.">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="How to change order status in WooCommerce (for beginners, no extra plugins)">
+	<meta name="twitter:description" content="This is a simple, easy-to-follow guide on all the ways you, as a merchant, can manually change the order status of an order in WooCommerce. This guide doesn’t require you to download any plugins or write any code. We show how to change the order status in a standard WooCommerce install.">
+	<!-- Fathom - beautiful, simple website analytics -->
+	<script src="https://cdn.usefathom.com/script.js" data-site="ACWPDZHT" defer></script>
+	<!-- / Fathom -->
+	<!-- Simple reload on change, for use only in development. -->
+	<!-- <script type="text/javascript" src="https://livejs.com/live.js"></script> -->
+</head>
+<body class="font-sans bg-gray-50">
+	<header class="sticky top-0 h-0">
+		<div id="navbar" class="z-10 backdrop-blur-xl transition bg-[#ffffff10] border-b border-b-gray-200">
+			<div class="flex justify-between items-center p-4 max-w-7xl mx-auto">
+				<a href="/">
+					<div id="nav-logo" class="bg-[#CB8A86] w-[80px] h-[40px]"></div>
+				</a>
+				<nav class="text-gray-800 font-semibold">
+					<a href="/#features" class="ml-8 transition">Features</a>
+					<a href="/#pricing" class="ml-8 transition hidden sm:inline">Pricing</a>
+					<a href="https://forms.gle/pRezSbdUcZmvZdX27" class="ml-8 transition hidden sm:inline">Help</a>
+					<!-- <a href="/blog" class="ml-8 transition hidden sm:inline">Blog</a> -->
+					<a
+						id="nav-download-link"
+						href="https://wordpress.org/plugins/dashify/"
+						class="ml-8 px-4 py-2 rounded-full border border-gray-800 hover:bg-gray-800 hover:text-gray-50 transition"
+					>
+						Download
+					</a>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<main class="px-4 pt-40 pb-28">
+		<article class="max-w-4xl mx-auto text-lg leading-6">
+			<h1 class="text-4xl font-bold mb-4">How to change order status in WooCommerce (for beginners, no extra plugins)</h1>
+			<p class="mb-8">Published on <time datetime="2024-04-17" class="font-semibold">17 April 2024</time> by <a href="mailto:john@getdashify.com" class="underline">John Jago</a></p>
+			<div class="rounded-lg p-8 bg-[#9D6095E3] text-gray-50">
+				<h2 class="text-2xl font-bold mb-4 inline-block">Summary</h2>
+				<p class="mb-4">This is a simple, easy-to-follow guide on all the ways you, as a merchant, can manually change the order status of an order in WooCommerce. This guide doesn’t require you to download any plugins or write any code. We show how to change the order status in a standard WooCommerce install.</p>
+				<p>In this guide, you’ll learn how to:</p>
+				<ul class="list-disc ml-8 my-3 leading-7">
+					<li><a href="#order-list" class="underline">Change order status from the order list</a></li>
+					<li><a href="#order-edit" class="underline">Change order status from the order edit view</a></li>
+				</ul>
+			</div>
+			<div class="prose max-w-none">
+				<h2 id="order-list" class="scroll-mt-24 mt-16">Change order status from the order list</h2>
+				<h3>Using the order preview</h3>
+				<p>Each order in the order list has an <strong class="font-bold">eye icon</strong> next to the name on the order, that when clicked, opens a preview of the order details. Here you can change the order status with a single click. What order statuses are available depends on the current status of the order.</p>
+				<img src="order-list-preview-icon.png" alt="Screenshot of the WooCommerce order list with an arrow pointing to the eye icon which opens the preview for a given order.">
+				<img src="order-list-preview-open.png" alt="Screenshot of the preview window that opens when the eye icon is clicked in the WooCommerce order list.">
+				<p>If you don’t see the order status you wish to change the order to, you can always click <strong class="font-bold">Edit</strong> and change the order status from there.</p>
+				<h3>Using bulk actions</h3>
+				<p>Another option for changing the status of a single or multiple orders is to <strong class="font-bold">check the boxes</strong> next to the orders you wish to change. Then, click <strong class="font-bold">Bulk actions</strong> and select the order status to change all the selected orders to.</p>
+				<img src="order-list-bulk-actions-checkbox.png" alt="Screenshot of the WooCommerce order list with an arrow pointing to the checkbox for a single order.">
+				<img src="order-list-bulk-actions-dropdown.png" alt="Screenshot of the WooCommerce order list with an arrow pointing to the bulk actions dropdown.">
+				<img src="order-list-bulk-actions-dropdown-open.png" alt="Screnshot of the WooCommerce order list with an arrow pointing to an item inside the expanded bulk actions dropdown.">
+				<h2 id="order-edit" class="scroll-mt-24">Change order status from the order edit view</h2>
+				<p>If you click into an order from the order list, you’ll go into the order edit view. From the order details area, you can change the status using the dropdown under the label <strong class="font-bold">Status</strong>.</p>
+				<img src="order-edit.png" alt="Screenshot of the WooCommerce order edit view with an arrow pointing to where the order status can be changed.">
+				<h2>Conclusion</h2>
+				<p>These are the three ways to manually change an order’s status in WooCommerce.</p>
+			</div>
+			<div class="bg-[#9D6095E3] mt-28 text-lg mx-auto text-center px-6 py-12 text-gray-50 rounded-lg">
+				<p class="mb-4 font-bold">Thanks for reading! 🎉</p>
+				<p class="mb-8 max-w-xl mx-auto">By the way, do you want to improve the look and productivity of WooCommerce when managing orders?</p>
+				<a
+					href="/"
+					class="inline-block py-4 px-6 rounded-full bg-gray-800 text-gray-50 font-semibold hover:shadow-lg transition"
+				>
+					Learn about Dashify
+				</a>
+			</div>
+		</article>
+	</main>
+	<footer class="bg-gray-700 text-gray-50 py-12">
+		<div class="max-w-7xl mx-auto font-semibold px-4">
+			<div class="flex flex-col gap-8 md:flex-row md:justify-between">
+				<div>
+					<h2 class="text-xl font-bold mb-4">Blog</h2>
+					<ul class="flex flex-col gap-2 text-gray-200">
+						<li>
+							<a href="/blog/change-order-status-in-woocommerce" class="underline decoration-gray-500">How to change order status in WooCommerce</a>
+							<span class="ml-1 inline-block -rotate-6 bg-green-100 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">New</span>
+						</li>
+					</ul>
+				</div>
+				<div class="flex flex-col">
+					<h2 class="text-xl mb-4">Help</h2>
+					<ul class="flex flex-col gap-2 text-gray-200">
+						<li><a href="https://forms.gle/pRezSbdUcZmvZdX27" class="underline decoration-gray-500">Report a bug</a></li>
+						<li><a href="https://forms.gle/pRezSbdUcZmvZdX27" class="underline decoration-gray-500">Request a feature</a></li>
+					</ul>
+				</div>
+				<div>
+					<h2 class="text-xl font-bold mb-4">About Dashify</h2>
+					<ul class="flex flex-col gap-2 text-gray-200">
+						<!-- <li><a href="/about" class="underline decoration-gray-500">Why we made Dashify</a></li> -->
+						<li><a href="/privacy" class="underline decoration-gray-500">Privacy</a></li>
+						<li><a href="/terms" class="underline decoration-gray-500">Terms</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="border-t border-t-gray-600 flex justify-between pt-4 mt-12 text-gray-400">
+				<p>&copy; Dashify 2024</p>
+				<p class="">Enjoy the rest of your <span id="day"></span>!</p>
+			</div>
+		</div>
+	</footer>
+	<script>
+		document.addEventListener('DOMContentLoaded' , () => {
+			const userLanguage = navigator.language || navigator.userLanguage;
+			const currentDate = new Date();
+			const dayOfWeekName = currentDate.toLocaleDateString(
+				userLanguage,
+				{ weekday: 'long' }
+			);
+			document.querySelector('#day').textContent = dayOfWeekName;
+		});
+	</script>
+	<script>
+		window.addEventListener('scroll', function() {
+			const navbar = document.querySelector('#navbar');
+			if (window.scrollY > 50) {
+				navbar.classList.add('bg-[#ffffff56]', 'shadow-sm');
+			} else {
+				navbar.classList.remove('bg-[#ffffff56]', 'shadow-sm');
+			}
+		});
+	</script>
+</body>
+</html>
