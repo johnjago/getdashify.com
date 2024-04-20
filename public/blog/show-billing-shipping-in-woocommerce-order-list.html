@@ -2,21 +2,23 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Previous and next order buttons for WooCommerce - Dashify</title>
+	<title>Show billing and shipping addresses in the WooCommerce order list - Dashify Blog</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<meta name="description" content="Add previous and next order navigation buttons to WooCommerce with Dashify. Jump to next and previous orders of the same status.">
+	<meta name="description" content="A short guide on how to add two columns to the table of orders in WooCommerce to show the billing address and shipping address for each customer.">
 	<link rel="icon" href="/images/icon.svg">
 	<link href="/main.out.css" rel="stylesheet">
-	<meta property="og:title" content="Add previous and next order navigation buttons to WooCommerce with Dashify. Jump to next and previous orders of the same status.">
+	<meta property="og:title" content="Show billing and shipping addresses in the WooCommerce order list">
+	<meta property="og:description" content="A short guide on how to add two columns to the table of orders in WooCommerce to show the billing address and shipping address for each customer.">
 	<meta name="twitter:card" content="summary">
-	<meta name="twitter:title" content="Add previous and next order navigation buttons to WooCommerce with Dashify. Jump to next and previous orders of the same status.">
+	<meta name="twitter:title" content="Show billing and shipping addresses in the WooCommerce order list">
+	<meta name="twitter:description" content="A short guide on how to add two columns to the table of orders in WooCommerce to show the billing address and shipping address for each customer.">
 	<!-- Fathom - beautiful, simple website analytics -->
 	<script src="https://cdn.usefathom.com/script.js" data-site="ACWPDZHT" defer></script>
 	<!-- / Fathom -->
 	<!-- Simple reload on change, for use only in development. -->
 	<!-- <script type="text/javascript" src="https://livejs.com/live.js"></script> -->
 </head>
-<body class="font-sans bg-gray-50 text-gray-800">
+<body class="font-sans bg-gray-50">
 	<header class="sticky top-0 h-0">
 		<div id="navbar" class="z-10 backdrop-blur-xl transition bg-[#ffffff10] border-b border-b-gray-200">
 			<div class="flex justify-between items-center p-4 max-w-7xl mx-auto">
@@ -27,6 +29,7 @@
 					<a href="/#features" class="ml-8 transition">Features</a>
 					<a href="/#pricing" class="ml-8 transition hidden sm:inline">Pricing</a>
 					<a href="https://forms.gle/pRezSbdUcZmvZdX27" class="ml-8 transition hidden sm:inline">Help</a>
+					<!-- <a href="/blog" class="ml-8 transition hidden sm:inline">Blog</a> -->
 					<a
 						id="nav-download-link"
 						href="https://wordpress.org/plugins/dashify/"
@@ -38,42 +41,34 @@
 			</div>
 		</div>
 	</header>
-	<main>
-		<section class="pt-40 pb-32 px-8 text-center max-w-6xl mx-auto">
-			<h1 class="text-5xl font-bold mb-16 text-transparent bg-clip-text bg-gradient-to-br from-[#9D6095] to-[#E8A04D]">Previous and next order buttons for WooCommerce</h1>
-			<p class="text-3xl mt-16 mb-12 max-w-4xl mx-auto">Tired of going back to the order list when manually processing orders? <b class="font-bold">Jump to next and previous orders with Dashify.</b></p>
-			<img
-				src="/images/previous-next-order-buttons.gif"
-				alt="Screen recording of a person clicking into a WooCommerce order from the order list after selecting the Processing status, and then going to the previous orders of that status using the order navigation buttons that Dashify adds to the order view."
-				class="w-full lg:max-w-7xl lg:w-none mx-auto rounded-lg shadow-2xl"
-			>
-			<h2 class="text-4xl font-semibold mt-32">What else can it do?</h2>
-			<div class="sm:flex mt-12 text-left">
-				<div class="sm:w-1/2 p-4 my-4 sm:mx-4 sm:my-0 bg-gray-100 rounded-lg">
-					<div class="flex mb-2">
-						<img src="/images/filter-icon.svg" class="w-6 mr-2">
-						<h2 class="font-bold text-lg">Status filter</h2>
-					</div>
-					<p>If you select an order status in the order list and then click an order, the buttons will jump to the next order of the same status.</p>
-				</div>
-				<div class="sm:w-1/2 p-4 sm:mx-4 sm:my-0 bg-gray-100 rounded-lg">
-					<div class="flex mb-2">
-						<img src="/images/keyboard-icon.svg" class="w-6 mr-2">
-						<h2 class="font-bold text-lg">Shortcuts</h2>
-					</div>
-					<p>Use J and K keyboard shortcuts to navigate orders quickly.</p>
-				</div>
+	<main class="px-4 pt-40 pb-28">
+		<article class="max-w-4xl mx-auto text-lg leading-6">
+			<h1 class="text-4xl font-bold mb-4">Show billing and shipping addresses in the WooCommerce order list</h1>
+			<p class="mb-8">Published <time datetime="2024-04-18" class="font-semibold">19 April 2024</time> by <a href="mailto:john@getdashify.com" class="underline">John Jago</a></p>
+			<div class="rounded-lg p-8 bg-[#9D6095E3] text-gray-50">
+				<h2 class="text-2xl font-bold mb-4 inline-block">Summary</h2>
+				<p class="mb-4">In this post, I’ll show you how to display the customer’s billing address and shipping address in the table of orders. This doesn’t require writing any code or installing any plugins.</p>
 			</div>
-		</section>
-		<section class="py-32 px-4 bg-gradient-to-b from-[#9D6095B3] to-[#E8A04DB3] border-t text-center">
-			<h2 class="text-white text-5xl font-bold mb-16">Manage WooCommerce orders more effectively.</h2>
-			<a
-				href="https://wordpress.org/plugins/dashify/"
-				class="py-4 px-6 rounded-full bg-gray-800 text-gray-50 text-xl font-semibold hover:shadow-lg transition"
-			>
-				Get Dashify
-		</a>
-		</section>
+			<div class="prose max-w-none">
+				<h2 class="mt-16">The not so obvious Screen Options</h2>
+				<p>It may not be obvious at first, but the WooCommerce orders page has a button called <strong class="font-bold">Screen Options</strong> which allows you to change which columns are shown in the order table.</p>
+				<p>By default, the shipping and billing address columns are turned off.</p>
+				<p>To turn them on, click the <strong class="font-bold">Screen Options</strong> to open them. Then, check the boxes to show the billing address, shipping address, or both.</p>
+				<img src="order-list-without-addresses.png" alt="Screenshot of the WooCommerce order list without address columns.">
+				<img src="order-list-with-addresses.png" alt="Screenshot of the WooCommerce order list with address columns.">
+				<p>That’s it! Now you can see the address without clicking into the order. As a bonus, you can also click the shipping address to see it on Google Maps.</p>
+			</div>
+			<div class="bg-[#9D6095E3] mt-28 text-lg mx-auto text-center px-6 py-12 text-gray-50 rounded-lg">
+				<p class="mb-4 font-bold">Thanks for reading! 🎉</p>
+				<p class="mb-8 max-w-xl mx-auto">Are you ready to improve the look and productivity of the WooCommerce order admin? Learn more about Dashify using the button below to see if it fits your needs.</p>
+				<a
+					href="/"
+					class="inline-block py-4 px-6 rounded-full bg-gray-800 text-gray-50 font-semibold hover:shadow-lg transition"
+				>
+					Learn about Dashify
+				</a>
+			</div>
+		</article>
 	</main>
 	<footer class="bg-gray-700 text-gray-50 py-12">
 		<div class="max-w-7xl mx-auto font-semibold px-4">
