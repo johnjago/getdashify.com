@@ -1,0 +1,7 @@
+baseURL = 'https://getdashify.com/'
+languageCode = 'en-us'
+title = 'Dashify'
+
+[params]
+	subtitle = 'WooCommerce admin dashboard theme'
+	description = 'Search, navigate, and manage orders faster with the Dashify admin theme for WooCommerce. Make the WooCommerce dashboard less confusing and more powerful with Dashify.'

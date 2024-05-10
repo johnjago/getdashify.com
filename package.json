@@ -1,14 +1,13 @@
 {
 	"scripts": {
 		"dev": "concurrently npm:watch-css npm:serve",
-		"watch-css": "tailwindcss -i ./main.css -o ./public/main.out.css --watch",
-		"build-css": "tailwindcss -i main.css -o ./public/main.out.css",
-		"serve": "http-server public/"
+		"watch-css": "tailwindcss -i assets/style.css -o assets/style.out.css --watch",
+		"build-css": "tailwindcss -i assets/style.css -o assets/style.out.css --minify",
+		"serve": "hugo serve"
 	},
 	"devDependencies": {
-		"@tailwindcss/typography": "^0.5.12",
+		"@tailwindcss/typography": "^0.5.13",
 		"concurrently": "^8.2.2",
-		"http-server": "^14.1.1",
 		"tailwindcss": "^3.4.3"
 	}
 }

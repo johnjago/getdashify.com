@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+{{ partial "head.html" . }}
+<body class="font-sans bg-gray-50">
+	{{ if .IsHome }}
+		{{ partial "header-home.html" . }}
+	{{ else }}
+		{{ partial "header.html" }}
+	{{ end }}
+	<main>
+		{{ block "main" . }}
+		{{ end }}
+	</main>
+	{{ partial "footer.html" . }}
+	{{ partial "scripts/enjoy-the-day.html" . }}
+	{{ if .IsHome }}
+		{{ partial "scripts/navigation/scroll-home.html" . }}
+	{{ else }}
+		{{ partial "scripts/navigation/scroll.html" . }}
+	{{ end }}
+</body>
+</html>

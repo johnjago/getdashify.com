@@ -1,0 +1,11 @@
+<script>
+	document.addEventListener('DOMContentLoaded' , () => {
+		const userLanguage = navigator.language || navigator.userLanguage;
+		const currentDate = new Date();
+		const dayOfWeekName = currentDate.toLocaleDateString(
+			userLanguage,
+			{ weekday: 'long' }
+		);
+		document.querySelector('#day').textContent = dayOfWeekName;
+	});
+</script>

@@ -1,6 +1,6 @@
 # getdashify.com
 
-Dashify’s website, a plain HTML site styled with Tailwind CSS.
+Dashify’s website, built with Hugo and Tailwind CSS.
 
 ## Developing
 
