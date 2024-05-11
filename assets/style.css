@@ -7,3 +7,9 @@
 	mask-size: contain;
 	mask-repeat: no-repeat;
 }
+
+.star {
+	mask-image: url(/images/star.svg);
+	mask-size: contain;
+	mask-repeat: no-repeat;
+}
