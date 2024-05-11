@@ -1,6 +1,8 @@
-# getdashify.com
+# [getdashify.com](https://getdashify.com)
 
-Dashify’s website, built with Hugo and Tailwind CSS.
+Dashify is an extension for WooCommerce that makes the admin dashboard as powerful and intuitive as Shopify’s.
+
+This is Dashify’s website, built with Hugo and Tailwind CSS.
 
 ## Developing
 
