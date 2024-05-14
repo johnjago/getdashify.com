@@ -1,15 +1,14 @@
 +++
-title = 'Change order status in WooCommerce (for beginners, no extra plugins)'
+title = 'Change order status in WooCommerce'
 date = '2024-04-17'
 draft = false
-summary = 'All the ways you can manually change the order status of an order in WooCommerce.'
+summary = 'All the ways you can manually change the order status of an order in WooCommerce. This is a beginner tutorial, and no other plugins downloads are required.'
 +++
 
-## Summary
-
 {{< rawhtml >}}
-<div class="rounded-lg px-8 py-4 bg-[#9D6095E3] text-gray-50 text-lg">
-	<p>This is a simple, easy-to-follow guide on all the ways you, as a merchant, can manually change the order status of an order in WooCommerce. This guide doesn’t require you to download any plugins or write any code. We show how to change the order status in a standard WooCommerce install.</p>
+<div class="rounded-lg px-8 py-8 bg-[#9D6095E3] text-gray-50 text-lg">
+	<h2 class="text-gray-50" style="margin-top: 0; margin-bottom: 0.6rem;">Summary</h2>
+	<p style="margin-bottom: 0;">This is a simple, easy-to-follow guide on all the ways you, as a merchant, can manually change the order status of an order in WooCommerce. This guide doesn’t require you to download any plugins or write any code. We show how to change the order status in a standard WooCommerce install.</p>
 	<p>In this guide, you’ll learn how to:</p>
 	<ul class="list-disc ml-8 my-3 leading-7">
 		<li><a href="#change-order-status-from-the-order-list" class="text-gray-50">Change order status from the order list</a></li>
@@ -17,6 +16,8 @@ summary = 'All the ways you can manually change the order status of an order in 
 	</ul>
 </div>
 {{< /rawhtml >}}
+
+---
 
 ## Change order status from the order list
 

@@ -5,15 +5,15 @@ draft = false
 summary = 'Energy+, the perhaps the only WooCommerce plugin out there that also restyles the admin side of WooCommerce, is no longer supported. Here is how Dashify compares.'
 +++
 
-## Summary
-
 {{< rawhtml >}}
-<div class="rounded-lg px-8 py-4 bg-[#9D6095E3] text-gray-50 text-lg">
+<div class="rounded-lg px-8 py-8 bg-[#9D6095E3] text-gray-50 text-lg">
+	<h2 class="text-gray-50" style="margin-top: 0; margin-bottom: 0.6rem;">Summary</h2>
 	<p><a href="https://codecanyon.net/item/energy-a-beautiful-admin-panel-for-woocommerce/25423023" class="text-gray-50">Energy+</a> is perhaps the only WooCommerce plugin out there that restyles the admin side of WooCommerce: the orders, customers, and everything else a merchant interacts with on the backend. However, that plugin hasn’t been updated in 2 years, doesn’t appear to work with the latest version of WooCommerce, and the author hasn’t responded to support queries for nearly a year after the price went from $30 to an unjustifiable $699.</p>
-
-	<p>In this post, I’ll talk about an alternative admin theme plugin that I’m creating and how it compares to Energy+.</p>
+	<p style="margin-bottom: 0;">In this post, I’ll talk about an alternative admin theme plugin that I’m creating and how it compares to Energy+.</p>
 </div>
 {{< /rawhtml >}}
+
+---
 
 ## What is the alternative?
 

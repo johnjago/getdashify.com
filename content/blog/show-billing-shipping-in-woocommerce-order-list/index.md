@@ -5,13 +5,14 @@ draft = false
 summary = 'How to display the customer’s billing address and shipping address in the table of orders, no snippets or plugins required.'
 +++
 
-## Summary
-
 {{< rawhtml >}}
-<div class="rounded-lg px-8 py-4 bg-[#9D6095E3] text-gray-50 text-lg">
-	<p>In this post, I’ll show you how to display the customer’s billing address and shipping address in the table of orders. This doesn’t require writing any code or installing any plugins.</p>
+<div class="rounded-lg px-8 py-8 bg-[#9D6095E3] text-gray-50 text-lg">
+	<h2 class="text-gray-50" style="margin-top: 0; margin-bottom: 0.6rem;">Summary</h2>
+	<p style="margin-bottom: 0;">In this post, I’ll show you how to display the customer’s billing address and shipping address in the table of orders. This doesn’t require writing any code or installing any plugins.</p>
 </div>
 {{< /rawhtml >}}
+
+---
 
 ## The not so obvious Screen Options
 
