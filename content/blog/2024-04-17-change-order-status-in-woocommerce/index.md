@@ -1,5 +1,6 @@
 +++
 title = 'Change order status in WooCommerce'
+slug = 'change-order-status-in-woocommerce'
 date = '2024-04-17'
 draft = false
 summary = 'All the ways you can manually change the order status of an order in WooCommerce. This is a beginner tutorial, and no other plugins downloads are required.'

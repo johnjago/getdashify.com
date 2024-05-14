@@ -1,5 +1,6 @@
 +++
 title = 'How to turn off HPOS in WooCommerce'
+slug = 'turn-off-hpos-woocommerce'
 date = '2024-04-21'
 draft = false
 summary = 'If a plugin you want to use is not compatible with HPOS, here is how you can disable HPOS.'

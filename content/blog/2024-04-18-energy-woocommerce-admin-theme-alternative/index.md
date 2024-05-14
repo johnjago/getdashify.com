@@ -1,5 +1,6 @@
 +++
 title = 'Alternative to the Energy+ WooCommerce admin theme'
+slug = 'energy-woocommerce-admin-theme-alternative'
 date = '2024-04-18'
 draft = false
 summary = 'Energy+, the perhaps the only WooCommerce plugin out there that also restyles the admin side of WooCommerce, is no longer supported. Here is how Dashify compares.'

@@ -1,5 +1,6 @@
 +++
 title = 'Show billing and shipping addresses in the WooCommerce order list'
+slug = 'show-billing-shipping-in-woocommerce-order-list'
 date = '2024-04-19'
 draft = false
 summary = 'How to display the customer’s billing address and shipping address in the table of orders, no snippets or plugins required.'
