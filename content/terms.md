@@ -1,11 +1,11 @@
 +++
-title = 'Terms and Conditions'
+title = 'Terms of Service'
 draft = false
 +++
 
 Last updated: 10 May 2024
 
-Welcome to Dashify! These Terms and Conditions ("Terms") outline the rules and regulations for using our website and plugin.
+Welcome to Dashify! These Terms of Service ("Terms") outline the rules and regulations for using our website and plugin.
 
 ## Acceptance of Terms
 
