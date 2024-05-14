@@ -1,0 +1,50 @@
+{{ define "main" }}
+<div class="max-w-3xl mx-auto mt-48 mb-28 px-4">
+	<h1 class="text-7xl text-center font-bold mt-16 mb-4">
+		<mark>What’s new in Dashify</mark>
+	</h1>
+	<style>
+		mark {
+			border-radius: 0.8em 0.3em;
+			background: transparent;
+			background-image: linear-gradient(
+				to right,
+				rgba(196, 152, 165, 0.1),
+				rgba(196, 152, 165, 0.7) 4%,
+				rgba(196, 152, 165, 0.4)
+			);
+			-webkit-box-decoration-break: clone;
+			box-decoration-break: clone;
+		}
+	</style>
+	<p class="mb-20 text-2xl text-center rounded-xl p-4">We make WooCommerce better with each update.</p>
+	<section>
+		<div class="flex flex-col gap-8">
+		{{ range .Pages }}
+			<article class="p-8 rounded-2xl shadow bg-[#dfcad13d]">
+				<div class="mb-4 flex justify-between font-mono text-sm text-gray-500">
+					<time
+						datetime='{{ .Date.Format "2006-01-02" }}'
+						class="block"
+					>
+						{{ .Date.Format "2006-01-02" }}
+					</time>
+					<span>
+						{{ .Params.Version }}
+					</span>
+				</div>
+				<a
+					href="{{ .Permalink }}"
+					class="font-semibold text-2xl underline decoration-gray-400"
+				>
+					<h2>{{ .Title }}</h2>
+				</a>
+				<div class="prose prose-h3:text-lg prose-h3:mt-0 mt-8">
+					{{ .Content }}
+				</div>
+			</article>
+		{{ end }}
+		</div>
+	</section>
+</div>
+{{ end }}

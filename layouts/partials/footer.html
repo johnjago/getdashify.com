@@ -2,36 +2,48 @@
 	<div class="max-w-7xl mx-auto font-semibold px-4">
 		<div class="flex flex-col gap-8 md:flex-row md:justify-between">
 			<div>
-				<h2 class="text-xl font-bold mb-4">Learn WooCommerce</h2>
+				<h2 class="text-xl font-bold mb-4">Product</h2>
 				<ul class="flex flex-col gap-2 text-gray-200">
 					<li>
-						<a href="/blog/turn-off-hpos-woocommerce" class="underline decoration-gray-500">How to turn off HPOS in WooCommerce</a>
-						<span class="ml-1 inline-block -rotate-6 bg-green-100 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">New</span>
+						<a href="/#features" class="underline decoration-gray-500">Features</a>
 					</li>
 					<li>
-						<a href="/blog/show-billing-shipping-in-woocommerce-order-list" class="underline decoration-gray-500">Show billing and shipping addresses in the WooCommerce order list</a>
+						<a href="/#pricing" class="underline decoration-gray-500">Pricing</a>
 					</li>
 					<li>
-						<a href="/blog/energy-woocommerce-admin-theme-alternative" class="underline decoration-gray-500">Alternative to the Energy+ WooCommerce admin theme</a>
-					</li>
-					<li>
-						<a href="/blog/change-order-status-in-woocommerce" class="underline decoration-gray-500">How to change order status in WooCommerce</a>
+						<a href="https://wordpress.org/plugins/dashify/" class="underline decoration-gray-500">WordPress.org</a>
 					</li>
 				</ul>
 			</div>
-			<div class="flex flex-col">
+			<div>
+				<span class="flex mb-4 items-center">
+					<h2 class="text-xl font-bold">Releases</h2>
+					<span class="ml-2 -rotate-6 bg-green-100 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">New</span>
+				</span>
+				<ul class="flex flex-col gap-2 text-gray-200">
+					{{ range first 3 (where .Site.RegularPages "Type" "releases") }}
+					<li>
+						<small class="font-mono text-gray-400">{{ .Date.Format "2006-01-02" }} • </small><a href="{{ .RelPermalink }}" class="underline decoration-gray-500">{{ .Title }}</a>
+					</li>
+					{{ end }}
+					<small class="mt-2">
+						<a href="/releases/" class="underline decoration-gray-500">See all updates →</a>
+					</small>
+				</ul>
+			</div>
+			<div>
 				<h2 class="text-xl mb-4">Help</h2>
 				<ul class="flex flex-col gap-2 text-gray-200">
 					<li><a href="https://forms.gle/pRezSbdUcZmvZdX27" class="underline decoration-gray-500">Report a bug</a></li>
 					<li><a href="https://forms.gle/pRezSbdUcZmvZdX27" class="underline decoration-gray-500">Request a feature</a></li>
+					<li><a href="/blog/" class="underline decoration-gray-500">WooCommerce tutorials</a>
 				</ul>
 			</div>
 			<div>
-				<h2 class="text-xl font-bold mb-4">About Dashify</h2>
+				<h2 class="text-xl font-bold mb-4">Legal</h2>
 				<ul class="flex flex-col gap-2 text-gray-200">
-					<!-- <li><a href="/about" class="underline decoration-gray-500">Why we made Dashify</a></li> -->
-					<li><a href="/privacy" class="underline decoration-gray-500">Privacy</a></li>
-					<li><a href="/terms" class="underline decoration-gray-500">Terms</a></li>
+					<li><a href="/privacy" class="underline decoration-gray-500">Privacy policy</a></li>
+					<li><a href="/terms" class="underline decoration-gray-500">Terms of service</a></li>
 				</ul>
 			</div>
 		</div>

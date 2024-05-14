@@ -1,0 +1,44 @@
+{{ define "main" }}
+<div class="max-w-7xl mx-auto mt-48 mb-28 px-4">
+	<h1 class="text-7xl text-center font-bold mt-16 mb-4">
+		<mark>The Dashify Blog</mark>
+	</h1>
+	<style>
+		mark {
+			border-radius: 0.8em 0.3em;
+			background: transparent;
+			background-image: linear-gradient(
+				to right,
+				rgba(196, 152, 165, 0.1),
+				rgba(196, 152, 165, 0.7) 4%,
+				rgba(196, 152, 165, 0.4)
+			);
+			-webkit-box-decoration-break: clone;
+			box-decoration-break: clone;
+		}
+	</style>
+	<p class="mb-20 text-2xl text-center rounded-xl p-4">WooCommerce <strong>tutorials</strong>, <strong>tips</strong>, and <strong>news</strong>.</p>
+	<section>
+		<h2 class="text-2xl font-bold mb-8">Latest posts</h2>
+		<div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
+		{{ range .Pages }}
+			<article class="p-8 rounded-2xl shadow bg-[#dfcad13d]">
+				<time
+					datetime='{{ .Date.Format "2006-01-02" }}'
+					class="font-mono text-sm text-gray-500 mb-4 block"
+				>
+					{{ .Date.Format "2006-01-02" }}
+				</time>
+				<a
+					href="{{ .Permalink }}"
+					class="font-semibold text-xl underline decoration-gray-400"
+				>
+					{{ .Title }}
+				</a>
+				<p class="mt-4">{{ .Summary }}</p>
+			</article>
+		{{ end }}
+		</div>
+	</section>
+</div>
+{{ end }}

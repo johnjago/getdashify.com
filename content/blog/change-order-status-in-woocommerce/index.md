@@ -1,7 +1,8 @@
 +++
-title = 'How to change order status in WooCommerce (for beginners, no extra plugins)'
+title = 'Change order status in WooCommerce (for beginners, no extra plugins)'
 date = '2024-04-17'
 draft = false
+summary = 'All the ways you can manually change the order status of an order in WooCommerce.'
 +++
 
 ## Summary
