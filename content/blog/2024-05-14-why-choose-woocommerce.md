@@ -8,7 +8,7 @@ draft = false
 
 {{< rawhtml >}}
 <div class="rounded-lg px-8 py-8 bg-[#9D6095E3] text-gray-50 text-lg">
-	<h2 class="text-gray-50" style="margin-top: 0;">Summary</h2>
+	<h2 class="text-gray-50" style="margin-top: 0; margin-bottom: 0.6rem;">Summary</h2>
 	<p>If you’re thinking about opening an ecommerce store, two popular options you may have come across are WooCommerce and Shopify. If you’re new to ecommerce, it’s hard to tell the differences. With this article, I hope to give my perspective as someone who has created and managed stores with both platforms so you can make the right choice for your business.</p>
 	<p style="margin-bottom: 0;">In this article, I'll go over a few situations when you’d want to choose WooCommerce over Shopify. If your situation is similar to what I describe, WooCommerce is likely a better choice.</p>
 </div>
