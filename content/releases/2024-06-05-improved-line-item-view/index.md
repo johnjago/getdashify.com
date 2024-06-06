@@ -10,7 +10,7 @@ version = '1.2.5'
 
 This update focuses on improving the display of line items in the WooCommerce edit order view.
 
-![Screenshot of the line items area of an order in the WooCommerce admin to show how Dashify styles it.](/releases/improved-order-line-items/line-items.png)
+![Screenshot of the line items area of an order in the WooCommerce admin to show how Dashify styles it.](/releases/2024-06-05-improved-line-item-view/line-items.png)
 
 #### RD Order Modifier for WooCommerce compatibility
 
