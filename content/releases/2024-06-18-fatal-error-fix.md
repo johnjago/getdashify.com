@@ -1,5 +1,5 @@
 +++
-title = 'We fixed an error!'
+title = 'Fixing an error in 1.2.6'
 slug = '2024-06-18-fatal-error-fix'
 date = '2024-06-18T18:00:00-05:00'
 draft = false
