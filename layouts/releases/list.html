@@ -21,7 +21,7 @@
 	<section>
 		<div class="flex flex-col gap-8">
 		{{ range .Pages }}
-			<article class="p-8 rounded-2xl shadow {{ if .Params.Pro }}bg-gradient-to-br from-gray-600 to-gray-700 text-gray-50{{ else }}bg-[#dfcad13d]{{ end }}">
+			<article class="p-8 rounded-2xl shadow {{ if .Params.Pro }}bg-gradient-to-br from-gray-500 to-gray-700 text-gray-50{{ else }}bg-[#dfcad13d]{{ end }}">
 				<div class="mb-4 flex justify-between font-mono text-sm {{ if .Params.Pro }}text-gray-50{{ else }}text-gray-500{{ end }}">
 					<time
 						datetime='{{ .Date.Format "2006-01-02" }}'
