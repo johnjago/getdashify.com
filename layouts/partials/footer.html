@@ -2,55 +2,55 @@
 	<div class="max-w-7xl mx-auto font-semibold px-4">
 		<div class="flex flex-col gap-12 md:flex-row md:justify-between">
 			<div>
-				<h2 class="text-xl font-bold mb-4">Product</h2>
-				<ul class="flex flex-col gap-2 text-gray-200">
+				<h2 class="text-xl font-extrabold mb-4 text-gray-100">Product</h2>
+				<ul class="flex flex-col gap-2 text-gray-300">
 					<li>
-						<a href="/#features" class="underline decoration-gray-500">Features</a>
+						<a href="/#features" class="hover:text-gray-400 transition">Features</a>
 					</li>
 					<li>
-						<a href="/#pro" class="underline decoration-gray-500">Dashify Pro</a>
+						<a href="/#pro" class="hover:text-gray-400 transition">Dashify Pro</a>
 					</li>
 					<li>
-						<a href="/#pricing" class="underline decoration-gray-500">Pricing</a>
+						<a href="/#pricing" class="hover:text-gray-400 transition">Pricing</a>
 					</li>
 					<li>
-						<a href="/roadmap/" class="underline decoration-gray-500">Roadmap</a>
+						<a href="/roadmap/" class="hover:text-gray-400 transition">Roadmap</a>
 					</li>
 					<li>
-						<a href="https://wordpress.org/plugins/dashify/" class="underline decoration-gray-500">WordPress.org</a>
+						<a href="https://wordpress.org/plugins/dashify/" class="hover:text-gray-400 transition">WordPress.org</a>
 					</li>
 				</ul>
 			</div>
 			<div>
 				<span class="flex mb-4 items-center">
-					<h2 class="text-xl font-bold">Releases</h2>
+					<h2 class="text-xl font-extrabold">Releases</h2>
 					<span class="ml-2 -rotate-6 bg-green-100 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">New</span>
 				</span>
-				<ul class="flex flex-col gap-2 text-gray-200">
+				<ul class="flex flex-col gap-2 text-gray-300">
 					{{ range first 4 (where .Site.RegularPages "Type" "releases") }}
 					<li>
-						<small class="font-mono text-gray-400">{{ .Date.Format "2006-01-02" }} • </small><a href="{{ .RelPermalink }}" class="underline decoration-gray-500">{{ .Title }}</a>
+						<small class="font-mono text-gray-400">{{ .Date.Format "2006-01-02" }} • </small><a href="{{ .RelPermalink }}" class="hover:text-gray-400 transition">{{ .Title }}</a>
 					</li>
 					{{ end }}
 					<small class="mt-2">
-						<a href="/releases/" class="underline decoration-gray-500">See all updates →</a>
+						<a href="/releases/" class="hover:text-gray-400 transition">See all updates →</a>
 					</small>
 				</ul>
 			</div>
 			<div>
 				<h2 class="text-xl mb-4">Help</h2>
-				<ul class="flex flex-col gap-2 text-gray-200">
-					<li><a href="https://forms.gle/pRezSbdUcZmvZdX27" class="underline decoration-gray-500">Report a bug</a></li>
-					<li><a href="https://forms.gle/pRezSbdUcZmvZdX27" class="underline decoration-gray-500">Request a feature</a></li>
-					<li><a href="/blog/" class="underline decoration-gray-500">WooCommerce tutorials</a>
+				<ul class="flex flex-col gap-2 text-gray-300">
+					<li><a href="https://forms.gle/pRezSbdUcZmvZdX27" class="hover:text-gray-400 transition">Report a bug</a></li>
+					<li><a href="https://forms.gle/pRezSbdUcZmvZdX27" class="hover:text-gray-400 transition">Request a feature</a></li>
+					<li><a href="/blog/" class="hover:text-gray-400 transition">WooCommerce tutorials</a>
 				</ul>
 			</div>
 			<div>
-				<h2 class="text-xl font-bold mb-4">Legal</h2>
-				<ul class="flex flex-col gap-2 text-gray-200">
-					<li><a href="/refund-policy/" class="underline decoration-gray-500">Refund Policy</a></li>
-					<li><a href="/privacy" class="underline decoration-gray-500">Privacy Policy</a></li>
-					<li><a href="/terms" class="underline decoration-gray-500">Terms of Service</a></li>
+				<h2 class="text-xl font-extrabold mb-4">Legal</h2>
+				<ul class="flex flex-col gap-2 text-gray-300">
+					<li><a href="/refund-policy/" class="hover:text-gray-400 transition">Refund Policy</a></li>
+					<li><a href="/privacy" class="hover:text-gray-400 transition">Privacy Policy</a></li>
+					<li><a href="/terms" class="hover:text-gray-400 transition">Terms of Service</a></li>
 				</ul>
 			</div>
 		</div>
