@@ -27,7 +27,7 @@
 					<span class="ml-2 -rotate-6 bg-green-100 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">New</span>
 				</span>
 				<ul class="flex flex-col gap-2 text-gray-200">
-					{{ range first 3 (where .Site.RegularPages "Type" "releases") }}
+					{{ range first 4 (where .Site.RegularPages "Type" "releases") }}
 					<li>
 						<small class="font-mono text-gray-400">{{ .Date.Format "2006-01-02" }} • </small><a href="{{ .RelPermalink }}" class="underline decoration-gray-500">{{ .Title }}</a>
 					</li>
