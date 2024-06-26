@@ -21,8 +21,8 @@
 	<section>
 		<div class="flex flex-col gap-8">
 		{{ range .Pages }}
-			<article class="p-8 rounded-2xl shadow bg-[#dfcad13d]">
-				<div class="mb-4 flex justify-between font-mono text-sm text-gray-500">
+			<article class="p-8 rounded-2xl shadow {{ if .Params.Pro }}bg-gradient-to-br from-gray-600 to-gray-700 text-gray-50{{ else }}bg-[#dfcad13d]{{ end }}">
+				<div class="mb-4 flex justify-between font-mono text-sm {{ if .Params.Pro }}text-gray-50{{ else }}text-gray-500{{ end }}">
 					<time
 						datetime='{{ .Date.Format "2006-01-02" }}'
 						class="block"
@@ -39,7 +39,7 @@
 				>
 					<h2>{{ .Title }}</h2>
 				</a>
-				<div class="prose prose-h3:text-xl prose-h3:mt-0 prose-img:rounded-lg prose-img:border prose-img:border-gray-200 img-all-around-shadow mt-8">
+				<div class="prose prose-h3:text-xl prose-h3:mt-0 prose-img:rounded-lg prose-img:border prose-img:border-gray-200 {{ if .Params.Pro }}text-gray-50 prose-a:text-gray-50{{ end }} img-all-around-shadow mt-8">
 					{{ .Content }}
 				</div>
 			</article>
