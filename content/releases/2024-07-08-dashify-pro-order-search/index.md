@@ -18,3 +18,7 @@ Clicking on an order will take you to the order edit page.
 ### Future improvements
 
 This is just the start—soon, you’ll be able to find orders by customer name, and also search not just orders, but products, customers, WooCommerce settings, and more.
+
+### Upgrading from Dashify Pro 1.0.0
+
+For anyone currently on Dashify Pro 1.0.0, you may need to download the zip from the Dashify Pro portal and upload it if WordPress doesn’t detect the automatic update. We changed how the updating works internally in 1.1.0 to bring it up to modern WordPress standards.
