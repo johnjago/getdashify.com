@@ -19,13 +19,14 @@
 	</style>
 	<p class="mb-20 text-2xl text-center rounded-xl p-4">We make WooCommerce better with each update.</p>
 	<div class="mb-4 flex gap-4">
-		<button id="free" class="tab pb-1 border-b-4 border-b-[#dcc6cd] transition">Free</button>
+		<button id="all" class="tab pb-1 border-b-4 border-b-[#dcc6cd] transition">All</button>
+		<button id="free" class="tab pb-1 border-b-4 border-b-transparent transition">Free</button>
 		<button id="pro" class="tab pb-1 border-b-4 border-b-transparent transition">Pro</button>
 	</div>
 	<section>
 		<div class="flex flex-col gap-8">
 		{{ range .Pages }}
-			<article data-dashify-pro="{{ .Params.Pro }}" class="p-8 rounded-2xl shadow {{ if .Params.Pro }}hidden bg-gradient-to-br from-gray-500 to-gray-700 text-gray-50{{ else }}bg-[#dfcad13d]{{ end }}">
+			<article data-dashify-pro="{{ .Params.Pro }}" class="p-8 rounded-2xl shadow {{ if .Params.Pro }}bg-gradient-to-br from-gray-500 to-gray-700 text-gray-50{{ else }}bg-[#dfcad13d]{{ end }}">
 				<div class="mb-4 flex justify-between font-mono text-sm {{ if .Params.Pro }}text-gray-50{{ else }}text-gray-500{{ end }}">
 					<time
 						datetime='{{ .Date.Format "2006-01-02" }}'
@@ -52,7 +53,7 @@
 	</section>
 	<script>
 		const tabs = document.querySelectorAll('.tab');
-		const tabIds = ['free', 'pro'];
+		const tabIds = ['all', 'free', 'pro'];
 		const articles = document.querySelectorAll('article');
 
 		for (const tab of tabs) {
@@ -69,6 +70,9 @@
 				for (const article of articles) {
 					const isPro = article.getAttribute('data-dashify-pro') === 'true';
 					switch (clickedId) {
+						case 'all':
+							article.classList.remove('hidden');
+							break;
 						case 'free':
 							article.classList.toggle('hidden', isPro);
 							break;
