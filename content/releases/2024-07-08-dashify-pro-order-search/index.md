@@ -1,5 +1,5 @@
 +++
-title = 'Search for orders from anywhere'
+title = 'Search orders from anywhere'
 slug = '2024-07-08-dashify-pro-order-search'
 date = '2024-07-08T21:59:00-05:00'
 draft = false
