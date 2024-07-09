@@ -19,9 +19,9 @@
 	</style>
 	<p class="mb-20 text-2xl text-center rounded-xl p-4">We make WooCommerce better with each update.</p>
 	<div class="mb-4 flex gap-4">
-		<button id="all" class="tab pb-1 border-b-4 border-b-[#dcc6cd] transition">All</button>
-		<button id="free" class="tab pb-1 border-b-4 border-b-transparent transition">Free</button>
-		<button id="pro" class="tab pb-1 border-b-4 border-b-transparent transition">Pro</button>
+		<button id="all" class="tab py-2 px-4 bg-[#dcc6cd] font-semibold rounded-lg transition">All</button>
+		<button id="free" class="tab py-2 px-4 rounded-lg transition">Free</button>
+		<button id="pro" class="tab py-2 px-4 rounded-lg transition">Pro</button>
 	</div>
 	<section>
 		<div class="flex flex-col gap-8">
@@ -62,8 +62,10 @@
 
 				for (const id of tabIds) {
 					const element = document.querySelector(`#${id}`);
-					element.classList.toggle('border-b-[#dcc6cd]', id === clickedId);
-					element.classList.toggle('border-b-transparent', id !== clickedId);
+					element.classList.toggle('bg-[#dcc6cd]', id === clickedId);
+					element.classList.toggle('font-semibold', id === clickedId);
+					element.classList.toggle('bg-transparent', id !== clickedId);
+					element.classList.toggle('font-normal', id !== clickedId);
 				}
 
 				// Handle article visibility
