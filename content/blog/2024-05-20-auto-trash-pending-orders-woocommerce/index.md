@@ -19,10 +19,13 @@ In WooCommerce, it’s possible to delete pending orders, which are unpaid and l
 
 1. From the WordPress dashboard, navigate to **WooCommerce → Settings** in the left sidebar.
 2. Open the “**Accounts & Privacy**” tab.
-   ![Screenshot of the WooCommerce settings page, with arrows pointing to the sidebar where to get to the settings, and then pointing to the Accounts & Privacy tab.](/blog/auto-trash-pending-orders-woocommerce/auto-trash-pending-orders-1.png)
+
+![Screenshot of the WooCommerce settings page, with arrows pointing to the sidebar where to get to the settings, and then pointing to the Accounts & Privacy tab.](/blog/auto-trash-pending-orders-woocommerce/auto-trash-pending-orders-1.png)
+
 3. Scroll to the bottom and find where it says “**Retain pending orders**”.
 4. You can set the amount of time after which a pending order will be deleted. For example, I set it to 7 days.
-   ![Screenshot of the bottom of the Accounts & Privacy WooCommerce settings page, where there is an option to choose the amount of time before a pending order is deleted.](/blog/auto-trash-pending-orders-woocommerce/auto-trash-pending-orders-2.png)
+
+![Screenshot of the bottom of the Accounts & Privacy WooCommerce settings page, where there is an option to choose the amount of time before a pending order is deleted.](/blog/auto-trash-pending-orders-woocommerce/auto-trash-pending-orders-2.png)
 
 ## Keep in mind
 

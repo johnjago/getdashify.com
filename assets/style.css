@@ -17,3 +17,12 @@
 .img-all-around-shadow img {
 	box-shadow: 0 0 1rem -0.25rem rgba(0, 0, 0, 0.25);
 }
+
+.blog-post img {
+	max-width: min(98vw, calc(100% + 7rem));
+}
+
+.blog-post p:has(img) {
+	display: flex;
+	justify-content: center;
+}

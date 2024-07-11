@@ -1,19 +1,20 @@
 {{ define "main" }}
-<article class="px-4 pt-40 pb-28 max-w-4xl mx-auto text-lg leading-6">
+<article class="blog-post px-4 pt-40 pb-28 max-w-3xl mx-auto text-lg leading-6">
 	<h1 class="text-4xl font-bold mb-4">{{ .Title }}</h1>
 	<p class="mb-8">Published <time datetime='{{ .Date.Format "2006-01-02" }}' class="font-semibold">{{ .Date.Format "2 January 2006" }}</time> by <a href="mailto:john@getdashify.com" class="underline">John Jago</a></p>
-	<article class="prose max-w-none">
+	<article class="prose prose-lg prose-h2:text-2xl prose-h3:text-xl max-w-none">
 		{{ .Content }}
 	</article>
-	<div class="bg-[#9D6095E3] mt-28 text-lg mx-auto text-center p-8 text-gray-50 rounded-lg">
-		<p class="mb-4 text-xl font-semibold">Thanks for reading! 🎉</p>
-		<p class="mb-8 mx-auto">We’re the creators of Dashify, a <strong>free plugin</strong> that gives the WooCommerce admin a fresh look, makes it more intuitive, and adds productivity features needed for high-performing, modern ecommerce stores.</p>
-		<a
-			href="/"
-			class="inline-block py-4 px-6 rounded-full bg-gray-800 text-gray-50 font-semibold hover:shadow-lg transition"
-		>
-			Learn about Dashify
-		</a>
+	<div class="bg-[#9D6095E3] mt-28 mx-auto p-8 text-gray-50 rounded-lg">
+		<p class="prose prose-lg text-gray-50 text-center mb-5 mx-auto">👋 Hey there! We’re the creators of Dashify, a free plugin that gives the WooCommerce admin a fresh look, makes it more intuitive, and adds productivity features for high-performing, modern ecommerce stores.</p>
+		<div class="text-center">
+			<a
+				href="/"
+				class="inline-block py-4 px-6 rounded-full bg-gray-800 text-gray-50 text-base font-semibold hover:shadow-lg transition"
+			>
+				Learn about Dashify
+			</a>
+		</div>
 	</div>
 </article>
 {{ end }}

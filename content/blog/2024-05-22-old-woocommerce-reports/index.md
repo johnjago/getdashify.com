@@ -17,6 +17,7 @@ draft = false
 
 1. Go to the WordPress dashboard.
 2. On the left, under **WooCommerce**, click **Reports**.
-   ![Screenshot of the WordPress dashboard, with an arrow pointing to the Reports item under WooCommerce in the left navigation, where the old WooCommerce analytics can be found.](/blog/old-woocommerce-reports/reports.png)
+
+![Screenshot of the WordPress dashboard, with an arrow pointing to the Reports item under WooCommerce in the left navigation, where the old WooCommerce analytics can be found.](/blog/old-woocommerce-reports/reports.png)
 
 Here you’ll see all the old reports for orders, customers, and stock.
