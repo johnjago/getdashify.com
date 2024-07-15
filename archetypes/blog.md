@@ -3,7 +3,6 @@ title = ''
 slug = ''
 summary = ''
 date = {{ .Date }}
-draft = false
 +++
 
 {{< rawhtml >}}
