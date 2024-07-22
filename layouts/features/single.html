@@ -1,14 +1,13 @@
 {{ define "main" }}
 <section class="pt-40 pb-32 px-8 text-center max-w-6xl mx-auto">
-	<h1 class="text-5xl font-bold mb-8 text-transparent bg-clip-text bg-gradient-to-br from-[#9D6095] to-[#E8A04D]">{{ .Title }}</h1>
+	<h1 class="text-5xl text-balance font-bold mb-8 text-transparent bg-clip-text bg-gradient-to-br from-[#9D6095] to-[#E8A04D]">{{ .Title }}</h1>
 	<p class="text-2xl mb-12 max-w-4xl font-medium mx-auto">{{ .Params.Subtitle }}</p>
 	<img
 		src="{{ .Params.ImageURL }}"
 		alt="{{ .Params.ImageAlt }}"
 		class="{{ .Params.ImageClasses }} mx-auto rounded-lg shadow-2xl"
 	>
-	<h2 class="text-4xl font-semibold mt-32 mb-12">Here’s everything it can do.</h2>
-	<div class="grid sm:grid-cols-2 gap-4 text-left">
+	<div class="mt-32 grid sm:grid-cols-2 gap-4 text-left">
 		{{ range .Params.highlights }}
 		<div class="p-4 bg-gray-100 rounded-lg">
 			<div class="flex mb-2">

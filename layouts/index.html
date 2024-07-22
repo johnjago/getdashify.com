@@ -79,7 +79,7 @@
 				<p>Check orders from your phone! Dashify makes the table responsive and fully usable on mobile devices.</p>
 			</div>
 		</div>
-		<div class="lg:flex flex-col justify-evenly border p-8 lg:basis-[48%] bg-white rounded-lg m-0.5 mt-8">
+		<div id="order-navigation" class="scroll-mt-24 target:border-4 target:border-[#E8A04DB3] lg:flex flex-col justify-evenly border p-8 lg:basis-[48%] bg-white rounded-lg m-0.5 mt-8">
 			<div class="lg:h-1/2 lg:flex items-center">
 				<img
 					src="/images/previous-next-order-buttons.png"
@@ -89,8 +89,7 @@
 			</div>
 			<div class="lg:h-1/2">
 				<a
-					href="/features/order-navigation"
-					class=""
+					href="/features/order-navigation/"
 				>
 					<h3 class="text-2xl font-semibold text-gray-600 mb-2">
 						Previous and next order buttons
@@ -100,7 +99,7 @@
 			</div>
 			<div class="mt-6">
 				<a
-				href="/features/order-navigation"
+				href="/features/order-navigation/"
 				class="rounded-lg py-2 px-3 text-sm bg-gray-800 text-gray-50 hover:bg-gray-700 hover:text-gray-100 transition-colors"
 			>
 				See the order navigation buttons in action →
@@ -217,7 +216,7 @@
 	<h2 class="text-4xl px-4 text-center font-bold mb-6">Get even more WooCommerce upgrades with <span class="text-nowrap text-transparent bg-clip-text bg-gradient-to-br from-[#f74de0dd] to-[#f59f3de3]">Dashify Pro</span>.</h2>
 	<a href="#pricing" class="block w-fit mx-auto text-center text-gray-300 mb-8 px-3 py-2 border border-gray-300 rounded-lg hover:text-gray-200 hover:border-gray-200 transition">Jump to pricing</a>
 	<div class="flex flex-row flex-wrap justify-between px-4 max-w-7xl mx-auto">
-		<div id="global-search" class="scroll-mt-24 lg:flex flex-col justify-evenly bg-gradient-to-br from-gray-500 to-gray-700 border border-gray-500 p-8 lg:basis-[48%] rounded-lg m-0.5 mt-8">
+		<div id="global-search" class="scroll-mt-24 target:border-4 target:border-[#E8A04DB3] lg:flex flex-col justify-evenly bg-gradient-to-br from-gray-500 to-gray-700 border border-gray-500 p-8 lg:basis-[48%] rounded-lg m-0.5 mt-8">
 			<div class="lg:flex items-center">
 				<img
 					src="images/global-search.png"
@@ -227,7 +226,7 @@
 			</div>
 			<div>
 				<h3 class="text-2xl font-semibold mb-2">Search orders from anywhere</h3>
-				<p class="text-gray-200">Need to jump to a specific order? Use Dashfy’s quick search to get to the order from any page in the WordPress admin.</p>
+				<p class="text-gray-200">Need to jump to a specific order? Use Dashify’s quick search to get to the order from any page in the WordPress admin.</p>
 			</div>
 			<div class="mt-6">
 				<a
@@ -238,7 +237,28 @@
 				</a>
 			</div>
 		</div>
-		<div id="sku" class="scroll-mt-24 lg:flex flex-col justify-evenly bg-gradient-to-br from-gray-500 to-gray-700 border border-gray-500 p-8 lg:basis-[48%] rounded-lg m-0.5 mt-8">
+		<div id="hide-custom-fields" class="scroll-mt-24 target:border-4 target:border-[#E8A04DB3] lg:flex flex-col justify-evenly bg-gradient-to-br from-gray-500 to-gray-700 border border-gray-500 p-8 lg:basis-[48%] rounded-lg m-0.5 mt-8">
+			<div class="lg:flex items-center">
+				<img
+					src="/images/hide-custom-fields.png"
+					alt="Screenshot of the Dashify configuration window for custom fields. It lists the custom fields from the order that the window was opened from, and there’s a button to mark a custom field as hidden, which will hide it globally across all orders."
+					class="mb-8 rounded-lg w-full"
+				>
+			</div>
+			<div>
+				<h3 class="text-2xl font-semibold mb-2">Hide custom fields</h3>
+				<p class="text-gray-200">Don’t want to see specific custom fields? Choose which custom fields show in the order view.</p>
+			</div>
+			<div class="mt-6">
+				<a
+					href="/features/hide-custom-fields/"
+					class="rounded-lg py-2 px-3 text-sm bg-gray-50 text-gray-800 hover:bg-gray-200 hover:text-gray-700 transition"
+				>
+					Learn more about hiding custom fields →
+				</a>
+			</div>
+		</div>
+		<div id="sku" class="scroll-mt-24 target:border-4 target:border-[#E8A04DB3] lg:flex flex-col justify-evenly bg-gradient-to-br from-gray-500 to-gray-700 border border-gray-500 p-8 lg:basis-[48%] rounded-lg m-0.5 mt-8">
 			<div class="lg:flex items-center">
 				<img
 					src="images/sku.png"
@@ -261,8 +281,8 @@
 		</div>
 		<div id="future" class="scroll-mt-24 lg:flex flex-col justify-evenly bg-gradient-to-br from-gray-500 to-gray-700 border border-gray-500 p-8 lg:basis-[48%] rounded-lg m-0.5 mt-8">
 			<div>
-				<h3 class="text-2xl font-semibold mb-3">Coming soon</h3>
-				<p class="text-gray-200">Improved styles for the entire WooCommerce dashboard, recent orders and activity feed, search for anything (products, settings, customers, and more), and features to manage orders effectively with a team.</p>
+				<h3 class="text-2xl font-semibold mb-3">Future WooCommerce upgrades</h3>
+				<p class="text-gray-200"><a href="/roadmap/" class="underline underline-offset-2 font-medium">Check out our roadmap</a> for what’s coming up. We release new features and improve Dashify regularly.</p>
 			</div>
 		</div>
 	</div>
@@ -272,31 +292,38 @@
 	<div class="flex flex-col md:flex-row flex-wrap justify-evenly mt-16 mb-8 gap-16 max-w-7xl mx-auto">
 		<div class="flex flex-col w-full lg:w-2/5 text-gray-700 bg-gray-100 border border-gray-200 p-16 rounded-lg">
 			<h3 class="text-2xl font-semibold mb-4">Free</h3>
-			<p>Upgrade the order admin for free.</p>
+			<p>Better order management at no cost.</p>
 			<ul class="my-8 divide-y divide-gray-400 flex flex-col">
 				<li class="py-4 flex items-center gap-2">
 					<svg class="text-gray-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 						<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
 					</svg>
-					<a href="#features" class="text-blue-500 font-bold">11 upgrades to the WooCommerce admin</a></li>
-					<li class="py-4 flex items-center gap-2">
-						<svg class="text-gray-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-						</svg>
-						Works with WooCommerce Subscriptions
-					</li>
-					<li class="py-4 flex items-center gap-2">
-						<svg class="text-gray-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-						</svg>
-						Regular compatibility updates
-					</li>
-					<li class="py-4 flex items-center gap-2">
-						<svg class="text-gray-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-						</svg>
-						Contact support anytime
-					</li>
+					<a href="#features" class="text-blue-500 font-bold">11 upgrades to the WooCommerce admin</a>
+				</li>
+				<li class="py-4 flex items-center gap-2">
+					<svg class="text-gray-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+						<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+					</svg>
+					<a href="#order-navigation" class="text-blue-500 font-bold">Next and previous order buttons</a>
+				</li>
+				<li class="py-4 flex items-center gap-2">
+					<svg class="text-gray-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+						<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+					</svg>
+					Works with WooCommerce Subscriptions
+				</li>
+				<li class="py-4 flex items-center gap-2">
+					<svg class="text-gray-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+						<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+					</svg>
+					Regular compatibility updates
+				</li>
+				<li class="py-4 flex items-center gap-2">
+					<svg class="text-gray-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+						<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+					</svg>
+					Contact support anytime
+				</li>
 			</ul>
 			<a
 				href="https://wordpress.org/plugins/dashify/"
@@ -315,13 +342,19 @@
 					<svg class="text-gray-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 						<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
 					</svg>
-					<a href="#sku" class="text-blue-500 font-bold">Sort order items by SKU</a>
+					<a href="#global-search" class="text-blue-500 font-bold">Search orders from any admin page</a>
 				</li>
 				<li class="py-4 flex items-center gap-2">
 					<svg class="text-gray-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 						<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
 					</svg>
-					<a href="#global-search" class="text-blue-500 font-bold">Search orders from any admin page</a>
+					<a href="#hide-custom-fields" class="text-blue-500 font-bold">Hide custom fields in orders</a>
+				</li>
+				<li class="py-4 flex items-center gap-2">
+					<svg class="text-gray-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+						<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+					</svg>
+					<a href="#sku" class="text-blue-500 font-bold">Sort order items by SKU</a>
 				</li>
 				<li class="py-4 flex items-center gap-2">
 					<svg class="text-gray-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
