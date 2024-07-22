@@ -5,7 +5,7 @@ subtitle = 'With Dashify, you can sort a customer’s line items by SKU in the o
 
 description = 'With Dashify, you can sort a customer’s line items by SKU in the order view, making it easy to package large orders where you’ve already got the inventory sorted by SKU.'
 
-imageURL = '/images/sku.png'
+imageURL = '/images/sku.webp'
 imageAlt = 'Screenshot of an order’s products in the WooCommerce order admin, showing SKU displayed as a separate column that can be sorted.'
 imageClasses = 'max-w-xl w-full'
 

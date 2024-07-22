@@ -5,7 +5,7 @@ subtitle = 'Dashify Pro adds a global order search to the WordPress admin top to
 
 description = 'Dashify Pro adds a global order search to the WordPress admin top toolbar. Search and save time by quickly jumping to orders.'
 
-imageURL = '/images/global-search.png'
+imageURL = '/images/global-search.webp'
 imageAlt = 'Screenshot of the WordPress admin dashboard, with a popup search appearing over the dashboard that shows a result showing for a searched query, along with a few recent orders. The ID, status, name, and date of the orders are previewed.'
 
 [[highlights]]
