@@ -23,8 +23,8 @@ By default, the shipping and billing address columns are turned off.
 
 To turn them on, click the **Screen Options** to open them. Then, check the boxes to show the billing address, shipping address, or both.
 
-![Screenshot of the WooCommerce order list without address columns.](order-list-without-addresses.png)
+![Screenshot of the WooCommerce order list without address columns.](order-list-without-addresses.webp)
 
-![Screenshot of the WooCommerce order list with address columns.](order-list-with-addresses.png)
+![Screenshot of the WooCommerce order list with address columns.](order-list-with-addresses.webp)
 
 That’s it! Now you can see the address without clicking into the order. As a bonus, you can also click the shipping address to see it on Google Maps.

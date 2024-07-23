@@ -17,7 +17,7 @@ draft = false
 
 For those who use WooCommerce regularly, you may have noticed that late last year, they changed all their branding from WooCommerce to Woo. Here is the announcement post:
 
-![Screenshot of the top of the article where WooCommerce announced a branding change, most notably replacing nearly all mentions of “WooCommerce” on their site with “Woo”, and switching the domain to woo.com](/blog/failed-woo-rebrand/announcement-post.png)
+![Screenshot of the top of the article where WooCommerce announced a branding change, most notably replacing nearly all mentions of “WooCommerce” on their site with “Woo”, and switching the domain to woo.com](/blog/failed-woo-rebrand/announcement-post.webp)
 
 The main changes of this rebrand were:
 
@@ -31,7 +31,7 @@ On the website, hardly any trace of the name WooCommerce could be found, as it w
 
 The website also more prominently featured the hosted WooCommerce offering, directly competing with Shopify even on pricing. This would allow someone who doesn’t know anything about WooCommerce hosting to create a WooCommerce store and have it hosted on Woo’s platform. They still have this, it just isn’t as emphasized as it is in this screenshot anymore.
 
-![Screenshot of the top of woo.com after the rebrand. It no longer says WooCommerce anywhere on the page.](/blog/failed-woo-rebrand/woo.com.png)
+![Screenshot of the top of woo.com after the rebrand. It no longer says WooCommerce anywhere on the page.](/blog/failed-woo-rebrand/woo.com.webp)
 
 ## What went wrong
 
@@ -39,7 +39,7 @@ Even with proper redirects, it’s not possible to know what effects a complete 
 
 For WooCommerce, it didn’t work out well. After the rebrand, daily traffic went from about 360,000 visits daily to less than 90,000, sometimes dropping as low as 40,000.
 
-![Screenshot of a graph showing organic traffic to the WooCommerce website after the rebrand to Woo. The graph is steady at around 360,000 visits daily until the rebrand, when it dropped to less than 90,000 visits daily.](/blog/failed-woo-rebrand/woo-traffic-drop.png)
+![Screenshot of a graph showing organic traffic to the WooCommerce website after the rebrand to Woo. The graph is steady at around 360,000 visits daily until the rebrand, when it dropped to less than 90,000 visits daily.](/blog/failed-woo-rebrand/woo-traffic-drop.webp)
 
 It’s scary to make such a large change. Other websites have done this in the past, and many have had no problem, so without knowing the internals at Google, it’s hard to know exactly what caused this.
 
@@ -47,7 +47,7 @@ It’s scary to make such a large change. Other websites have done this in the p
 
 Not surprisingly, they decided to change the branding back to WooCommerce. The domain went back to woocommerce.com, and most of the wording on the website changed back to WooCommerce from Woo.
 
-![Screenshot of a blog post on the WooCommerce website about them going back to the domain woocommerce.com.](/blog/failed-woo-rebrand/revert-post.png)
+![Screenshot of a blog post on the WooCommerce website about them going back to the domain woocommerce.com.](/blog/failed-woo-rebrand/revert-post.webp)
 
 This happened on 9 April 2024.
 

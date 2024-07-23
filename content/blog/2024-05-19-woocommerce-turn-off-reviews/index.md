@@ -20,6 +20,6 @@ draft = false
 3. Scroll down to the Reviews section and uncheck the box labeled “**Enable product reviews**”.
 4. Click the “**Save changes**” button at the bottom.
 
-![Screenshot of the WooCommerce settings showing the Product tab, with arrows pointing out how to get there, along with an arrow pointing to the checkbox to uncheck, labeled “Enable product reviews”.](/blog/woocommerce-turn-off-reviews/turn-off-reviews.png)
+![Screenshot of the WooCommerce settings showing the Product tab, with arrows pointing out how to get there, along with an arrow pointing to the checkbox to uncheck, labeled “Enable product reviews”.](/blog/woocommerce-turn-off-reviews/turn-off-reviews.webp)
 
 The product reviews section will no longer be shown on your product pages.

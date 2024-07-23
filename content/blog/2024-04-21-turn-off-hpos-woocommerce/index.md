@@ -25,7 +25,7 @@ Turning off HPOS takes just a few clicks.
 4.  Under _Order data storage_, set the setting to **WordPress posts storage (legacy)**.
 5.  Click **Save changes**.
 
-![Screenshot showing how to navigate to the settings page in WooCommerce where HPOS can be turned off.](turn-off-hpos-woocommerce.png)
+![Screenshot showing how to navigate to the settings page in WooCommerce where HPOS can be turned off.](turn-off-hpos-woocommerce.webp)
 
 ## If the setting is unavailable
 

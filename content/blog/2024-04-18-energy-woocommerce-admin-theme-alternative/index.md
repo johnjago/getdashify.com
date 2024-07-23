@@ -28,25 +28,25 @@ However, a few screenshots will show best what Dashify does.
 
 In the order edit view, the layout isn’t intuitive. The actions buttons are in multiple places, and one has to search for them if they’re new to this screen.
 
-![Screenshot of the order edit view in WooCommerce. The layout is dull and doesn’t look sleek.](order-edit-before.png)
+![Screenshot of the order edit view in WooCommerce. The layout is dull and doesn’t look sleek.](order-edit-before.webp)
 
 ### Order edit, with Dashify
 
 With Dashify, the order action buttons are grouped together and easily found in the top right. The same is true for the order information like order number, date, and status, which are grouped in the top left. Also, the layout is updated slightly to bring key panels to the top and center area, with lesser used panels moved to the sidebar.
 
-![Screenshot of the order edit view after Dashify is added, showing a layout that is much sleeker and more organized.](order-edit-after.png)
+![Screenshot of the order edit view after Dashify is added, showing a layout that is much sleeker and more organized.](order-edit-after.webp)
 
 ### Order list, regular WooCommerce
 
 Perhaps the biggest drawback of the order list is how all the filters and buttons are grouped in the top left, and some like the order status filters are simple text links that are hard to notice. For someone who is familiar, it works, but to someone new, it can be confusing.
 
-![Screenshot of the regular WooCommerce order list, without Dashify. It doesn’t look too sleek.](order-list-before.png)
+![Screenshot of the regular WooCommerce order list, without Dashify. It doesn’t look too sleek.](order-list-before.webp)
 
 ### Order list, with Dashify
 
 Dashify makes the possible actions more clear, with the order status filters part of the table, and the searching all together behind a single button.
 
-![Screenshot of the order list after Dashify is added, showing improved styling of the table and a new recent order trend graph above the list.](order-list-after.png)
+![Screenshot of the order list after Dashify is added, showing improved styling of the table and a new recent order trend graph above the list.](order-list-after.webp)
 
 As you can see, Dashify takes the existing WooCommerce UI and improves the overall look and feel, making it more polished and usable without too drastic changes.
 
@@ -54,7 +54,7 @@ As you can see, Dashify takes the existing WooCommerce UI and improves the overa
 
 Shown below is what the WooCommerce admin looks like when Energy+ is installed. As you can see, it restyles the whole dashboard.
 
-![Screenshot of how Energy+ restyles the WooCommerce order list.](energy.png)
+![Screenshot of how Energy+ restyles the WooCommerce order list.](energy.webp)
 
 There are a many differences visually, but the goal of both plugins is the same: to improve the UI and UX of the WooCommerce admin. Here is a list of how Dashify is different:
 

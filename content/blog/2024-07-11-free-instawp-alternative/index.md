@@ -36,7 +36,7 @@ The WordPress Playground has been in development by the WordPress team for a few
 
 If you want to jump right in, here’s the link: [playground.wordpress.net](https://playground.wordpress.net/)
 
-![Screenshot of the WordPress admin dashboard after being created by visiting the WordPress Playground. It looks like a standard WordPress installation except for a bar at the top of the browser window that has some configuration options.](/blog/free-instawp-alternative/wp-playground-home.png)
+![Screenshot of the WordPress admin dashboard after being created by visiting the WordPress Playground. It looks like a standard WordPress installation except for a bar at the top of the browser window that has some configuration options.](/blog/free-instawp-alternative/wp-playground-home.webp)
 
 It will create a fresh WordPress site that runs in your browser, no sign up required. There is no limit on the number of sites you can create. To create a new site, just open a new browser tab and go to the same link.
 
@@ -55,11 +55,11 @@ You can:
 
 Of course, saving the state of the sites as zip files is not as convenient as logging into InstaWP and having everything there, but if you need a *really temporary* site, it shouldn’t be too much of a downside.
 
-![Screenshot of the configuration options for the WordPress site. The options are: PHP version, WordPress version, whether to save data to the browser or clear the site upon exit, whether to allow network access, and whether to download ceratin PHP extensions.](/blog/free-instawp-alternative/wp-playground-config.png)
+![Screenshot of the configuration options for the WordPress site. The options are: PHP version, WordPress version, whether to save data to the browser or clear the site upon exit, whether to allow network access, and whether to download ceratin PHP extensions.](/blog/free-instawp-alternative/wp-playground-config.webp)
 
 {{< rawhtml >}}
 <img
-	src="/blog/free-instawp-alternative/wp-playground-menu.png"
+	src="/blog/free-instawp-alternative/wp-playground-menu.webp"
 	alt="Screenshot of the menu in the WordPress Playground, with options to reset the site, download and import the site as a zip, and to view PHP logs, among others."
 	style="max-width: 50%; margin: 0 auto;"
 >

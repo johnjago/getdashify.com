@@ -21,14 +21,14 @@ Follow these steps to turn off the coupon fields.
 
 1. From the WordPress dashboard, navigate to **WooCommerce → Settings** in the left sidebar.
 
-![Screenshot of the WooCommerce general settings page, with arrows on how to navigate to it from the left menu in the WordPress dashboard.](/blog/turn-off-coupons-woocommerce/turn-off-coupons-1.png)
+![Screenshot of the WooCommerce general settings page, with arrows on how to navigate to it from the left menu in the WordPress dashboard.](/blog/turn-off-coupons-woocommerce/turn-off-coupons-1.webp)
 
 2. You’ll land on the General tab.
 3. Scroll down until you see “**Enable coupon fields**”.
 4. **Uncheck** the box labeled “**Enable the use of coupon codes**”.
 5. Click “**Save changes**” at the bottom.
 
-![Screenshot of the field to remove the check from after scrolling down a little on the general settings page in WooCommerce, which will turn off coupons. An arrow is pointing to both the checkbox and the “Save Changes” button.](/blog/turn-off-coupons-woocommerce/turn-off-coupons-2.png)
+![Screenshot of the field to remove the check from after scrolling down a little on the general settings page in WooCommerce, which will turn off coupons. An arrow is pointing to both the checkbox and the “Save Changes” button.](/blog/turn-off-coupons-woocommerce/turn-off-coupons-2.webp)
 
 Customers will no longer see the coupon fields on the cart and checkout pages.
 

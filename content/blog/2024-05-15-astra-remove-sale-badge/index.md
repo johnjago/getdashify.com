@@ -17,7 +17,7 @@ draft = false
 
 If you’ve seen these sale banners on products in your WooCommerce store, and you want them gone, here’s how you can do it while still keeping the items on sale.
 
-![Screenshot of the sale badges on items on the shop page of a WooCommerce store.](/blog/astra-remove-sale-badge/shop-page-sale-badges.png)
+![Screenshot of the sale badges on items on the shop page of a WooCommerce store.](/blog/astra-remove-sale-badge/shop-page-sale-badges.webp)
 
 ## For most Astra themes
 
@@ -43,15 +43,15 @@ If the theme supports the new WordPress site editor (released in 2022 and becomi
 2. In the side navigation, go to **Appearance → Editor**.
 3. Click on “**Styles**”.
 
-![Screenshot of the WordPress full site editor after landing on it from the WordPress dashboard.](/blog/astra-remove-sale-badge/site-editor-design.png)
+![Screenshot of the WordPress full site editor after landing on it from the WordPress dashboard.](/blog/astra-remove-sale-badge/site-editor-design.webp)
 
 4. Click the **pencil icon** to edit styles.
 
-![Screenshot of the WordPress full site editor after clicking “Styles”.](/blog/astra-remove-sale-badge/site-editor-styles.png)
+![Screenshot of the WordPress full site editor after clicking “Styles”.](/blog/astra-remove-sale-badge/site-editor-styles.webp)
 
 5. At the bottom, open “**Additional CSS**”.
 
-![Screenshot of the WordPress full site editor after clicking the pencil icon to further edit styles.](/blog/astra-remove-sale-badge/site-editor-styles-edit.png)
+![Screenshot of the WordPress full site editor after clicking the pencil icon to further edit styles.](/blog/astra-remove-sale-badge/site-editor-styles-edit.webp)
 
 6. Paste the custom code into the box:
 	```css
@@ -60,6 +60,6 @@ If the theme supports the new WordPress site editor (released in 2022 and becomi
 	}
 	```
 
-![Screenshot of the WordPress full site editor showing the box where to paste the custom code to hide the Astra sale badges.](/blog/astra-remove-sale-badge/site-editor-css.png)
+![Screenshot of the WordPress full site editor showing the box where to paste the custom code to hide the Astra sale badges.](/blog/astra-remove-sale-badge/site-editor-css.webp)
 
 7. Click “**Save**”.

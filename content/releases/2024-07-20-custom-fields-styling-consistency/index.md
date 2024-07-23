@@ -11,7 +11,7 @@ Now, the look of the custom fields is the same no matter where it’s positioned
 
 {{< rawhtml >}}
 <img
-	src="/releases/2024-07-20-custom-fields-styling-consistency/custom-fields.png"
+	src="/releases/2024-07-20-custom-fields-styling-consistency/custom-fields.webp"
 	alt="Screenshot of the custom fields in the WooCommerce edit order view, styled by Dashify. This screenshot shows that the buttons sizes are more consistent compared to previous releases of Dashify."
 	style="max-width: 50%; margin: 2rem auto;"
 >

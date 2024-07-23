@@ -22,6 +22,6 @@ This is a setting that is part of WooCommerce, so no custom code or plugins are 
 3. Near the top, next to “**Add to cart behaviour**”, you’ll see a checkbox labeled “**Redirect to the cart page after successful addition**”. Check the box to enable the feature.
 4. Scroll to the bottom and click “**Save changes**”.
 
-![Screenshot of the WooCommerce settings, showing the Products tab where there is a checkbox to redirect the shopper to the cart after they add an item, with arrows pointing to the side navigation and tab to show how to navigate there, and one arrow pointing to the checkbox.](/blog/woocommerce-redirect-after-add-to-cart/redirect-after-add-to-cart.png)
+![Screenshot of the WooCommerce settings, showing the Products tab where there is a checkbox to redirect the shopper to the cart after they add an item, with arrows pointing to the side navigation and tab to show how to navigate there, and one arrow pointing to the checkbox.](/blog/woocommerce-redirect-after-add-to-cart/redirect-after-add-to-cart.webp)
 
 After turning this on, when a shopper adds an item to the cart from either the shop page or the product page, they’ll be taken to the cart page after the item is added.
