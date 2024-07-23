@@ -58,239 +58,79 @@
 		</article>
 	</article>
 </section>
-<section id="features" class="pt-16 px-4 max-w-7xl mx-auto scroll-mt-16">
+<section id="features" class="py-16 px-4 max-w-7xl mx-auto scroll-mt-16">
 	<h2 class="text-3xl md:text-4xl text-center font-bold text-gray-700 mb-12">How does Dashify make WooCommerce better?</h2>
-	<div class="flex flex-row flex-wrap justify-between mb-16">
-		<div class="lg:flex flex-col justify-evenly border p-8 lg:basis-[48%] bg-white rounded-lg m-0.5">
-			<div class="lg:h-3/4 lg:flex items-center">
+	<div class="grid md:grid-cols-2 gap-8 px-4 max-w-7xl mx-auto">
+		{{ range .Site.Data.index.features }}
+		{{ range .free }}
+		<div
+			id="{{ .title | anchorize }}"
+			class="scroll-mt-24 p-8 border target:border-4 target:border-[#E8A04DB3] lg:flex flex-col justify-evenly lg:basis-[48%] bg-white rounded-lg"
+		>
+			<div class="lg:flex items-center">
 				<img
-					src="images/order-view.webp"
-					alt="Screenshot of how Dashify changes the WooCommerce admin order view to be more like Shopify in terms of layout and style."
-					class="mb-4 rounded-lg"
+					src="/images/{{ .image }}"
+					alt="{{ .imageAlt }}"
+					class="mb-8 rounded-lg w-full"
 				>
 			</div>
-			<div class="lg:h-1/4">
-				<h3 class="text-2xl font-semibold text-gray-600 mb-2">Shopify-like order view</h3>
-				<p>Looking for user friendly order editing? Dashify’s layout puts key information such as products, order number, date, and status at the top. All actions buttons are clear and grouped together.</p>
+			<div>
+				<h3 class="text-2xl font-semibold text-gray-600 mb-2">{{ .title }}</h3>
+				<p>{{ .description }}</p>
 			</div>
-		</div>
-		<div class="lg:flex flex-col justify-evenly border p-8 lg:basis-[48%] bg-white rounded-lg m-0.5">
-			<div class="lg:h-4/5 lg:flex items-center">
-				<img
-					src="images/mobile-table.gif"
-					alt="Screenshot of the WooCommerce order table fitting on mobile with Dashify."
-					class="mb-4 rounded-lg"
-				>
-			</div>
-			<div class="lg:h-1/5">
-				<h3 class="text-2xl font-semibold text-gray-600 mb-2">Mobile-friendly order table</h3>
-				<p>Check orders from your phone! Dashify makes the table responsive and fully usable on mobile devices.</p>
-			</div>
-		</div>
-		<div id="order-navigation" class="scroll-mt-24 target:border-4 target:border-[#E8A04DB3] lg:flex flex-col justify-evenly border p-8 lg:basis-[48%] bg-white rounded-lg m-0.5 mt-8">
-			<div class="lg:h-1/2 lg:flex items-center">
-				<img
-					src="/images/previous-next-order-buttons.webp"
-					alt="Screenshot of the previous and next order buttons that Dashify adds to the top of the WooCommerce order view page."
-					class="mb-4 rounded-lg"
-				>
-			</div>
-			<div class="lg:h-1/2">
-				<a
-					href="/features/order-navigation/"
-				>
-					<h3 class="text-2xl font-semibold text-gray-600 mb-2">
-						Previous and next order buttons
-					</h3>
-				</a>
-				<p>From the order view, jump to the previous or next order with a button or keyboard shortcut. Optionally, skip to the next order of the same status.</p>
-			</div>
+			{{ if .action }}
 			<div class="mt-6">
 				<a
-				href="/features/order-navigation/"
-				class="rounded-lg py-2 px-3 text-sm bg-gray-800 text-gray-50 hover:bg-gray-700 hover:text-gray-100 transition-colors"
-			>
-				See it in action →
-			</a>
-			</div>
-		</div>
-		<div class="lg:flex flex-col justify-evenly border p-8 lg:basis-[48%] bg-white rounded-lg m-0.5 mt-8">
-			<div class="lg:h-1/2 lg:flex items-center">
-				<img
-					src="images/order-date-time.webp"
-					alt="Screenshot of the order status, date, and actions that Dashify moves to the top of the order view page."
-					class="mb-4 rounded-lg"
+					href="{{ .actionLink }}"
+					class="rounded-lg py-2 px-3 text-sm bg-gray-800 text-gray-50 hover:bg-gray-700 hover:text-gray-100 transition-colors"
 				>
+					{{ .action }}
+				</a>
 			</div>
-			<div class="lg:h-1/2">
-				<h3 class="text-2xl font-semibold text-gray-600 mb-2">Localized date and time</h3>
-				<p>View order date and time in your region’s local format.</p>
-			</div>
+			{{ end }}
 		</div>
-		<div class="lg:flex flex-col justify-evenly border p-8 lg:basis-[48%] bg-white rounded-lg m-0.5 mt-8">
-			<div class="lg:h-1/2 lg:flex items-center">
-				<img
-					src="images/trend-graphs.webp"
-					alt="Screenshot of the order trend graphs that Dashify adds to a WooCommerce store."
-					class="mb-4 rounded-lg"
-				>
-			</div>
-			<div class="lg:h-1/2">
-				<h3 class="text-2xl font-semibold text-gray-600 mb-2">Order trend graphs</h3>
-				<p class="text-gray-900">See order trends to get insight into your store’s performance.</p>
-			</div>
-		</div>
-		<div class="lg:flex flex-col justify-evenly border p-8 lg:basis-[48%] bg-white rounded-lg m-0.5 mt-8">
-			<div class="lg:h-1/2 lg:flex items-center">
-				<img
-					src="images/order-status-filters.webp"
-					alt="Screenshot of how Dashify make the order status selection for the WooCommerce order table more obvious."
-					class="mb-4 rounded-lg"
-				>
-			</div>
-			<div class="lg:h-1/2">
-				<h3 class="text-2xl font-semibold text-gray-600 mb-2">Order status filters</h3>
-				<p>Without Dashify, the order status filters are small and easy to miss. Dashify makes it part of the table so it’s bigger and easier to click.</p>
-			</div>
-		</div>
-		<div class="lg:flex flex-col justify-evenly border p-8 lg:basis-[48%] bg-white rounded-lg m-0.5 mt-8">
-			<div class="lg:h-1/2 lg:flex items-center">
-				<img
-					src="images/bulk-actions.webp"
-					alt="Screenshot of floating bulk actions in the WooCommerce order list added by Dashify."
-					class="mb-4 rounded-lg"
-				>
-			</div>
-			<div class="lg:h-1/2">
-				<h3 class="text-2xl font-semibold text-gray-600 mb-2">Floating bulk actions</h3>
-				<p>If you’re in the middle of a long list of orders, the bulk actions appear as a floating bar, allowing you to perform actions without having to scroll back up.</p>
-			</div>
-		</div>
-		<div class="lg:flex flex-col justify-evenly border p-8 lg:basis-[48%] bg-white rounded-lg m-0.5 mt-8">
-			<div class="lg:h-1/2 lg:flex items-center">
-				<img
-					src="images/search.gif"
-					alt="Screenshot of how Dashify changes the look and feel of the order search and filter in WooCommerce."
-					class="mb-4 rounded-lg"
-				>
-			</div>
-			<div class="lg:h-1/2">
-				<h3 class="text-2xl font-semibold text-gray-600 mb-2">Search and filter</h3>
-				<p>In normal WooCommerce, all the filters and search are visible, making the page cluttered. With Dashify, the filters and search are neatly grouped together, and hidden when not in use.</p>
-			</div>
-		</div>
-		<div class="lg:flex flex-col justify-evenly border p-8 lg:basis-[48%] bg-white rounded-lg m-0.5 mt-8">
-			<div class="lg:h-3/4 lg:flex items-center">
-				<img
-					src="images/timeline.webp"
-					alt="Screenshot of the restyled order notes, which Dashify displays in the form of a timeline."
-					class="mb-4 rounded-lg"
-				>
-			</div>
-			<div class="lg:h-1/4">
-				<h3 class="text-2xl font-semibold text-gray-600 mb-2">Timeline</h3>
-				<p>The order notes becomes a timeline, giving you more space for important context about the order.</p>
-			</div>
-		</div>
-		<div class="lg:flex flex-col justify-evenly border p-8 lg:basis-[48%] bg-white rounded-lg m-0.5 mt-8">
-			<div class="lg:h-3/4 lg:flex items-center">
-				<img
-					src="images/back-button.webp"
-					alt="Screenshot showing the back button that Dashify adds to the order view page."
-					class="mb-4 rounded-lg"
-				>
-			</div>
-			<div class="lg:h-1/4">
-				<h3 class="text-2xl font-semibold text-gray-600 mb-2">Back button</h3>
-				<p>Go back to the order list quickly from any order.</p>
-			</div>
-		</div>
-		<div class="lg:flex flex-col justify-evenly border p-8 lg:basis-[48%] bg-white rounded-lg m-0.5 mt-8">
-			<div class="lg:h-4/5 lg:flex items-center">
-				<img
-					src="images/auto-expanding-order-note-field.gif"
-					alt="Video showing the timeline add new note field auto expanding as the user types more lines."
-					class="mb-4 rounded-lg"
-				>
-			</div>
-			<div class="lg:h-2/5">
-				<h3 class="text-2xl font-semibold text-gray-600 mb-2">Auto-expanding order notes</h3>
-				<p>Type long order notes with ease with Dashify’s auto-expanding fields.</p>
-			</div>
-		</div>
+		{{ end }}
+		{{ end }}
 	</div>
 </section>
 <section id="pro" class="py-16 scroll-mt-16 bg-gray-700 text-gray-50 border-t">
 	<h2 class="text-3xl md:text-4xl text-balance px-4 text-center font-bold mb-4">Get even more WooCommerce upgrades with <span class="text-nowrap text-transparent bg-clip-text bg-gradient-to-br from-[#f74de0dd] to-[#f59f3de3]">Dashify&nbsp;Pro</span>.</h2>
-	<a href="#pricing" class="block w-fit mx-auto text-center text-gray-300 mb-4 px-3 py-2 border border-gray-300 rounded-lg hover:text-gray-200 hover:border-gray-200 transition">Jump to pricing</a>
-	<div class="flex flex-row flex-wrap justify-between px-4 max-w-7xl mx-auto">
-		<div id="global-search" class="scroll-mt-24 target:border-4 target:border-[#E8A04DB3] lg:flex flex-col justify-evenly bg-gradient-to-br from-gray-500 to-gray-700 border border-gray-500 p-8 lg:basis-[48%] rounded-lg m-0.5 mt-8">
+	<a href="#pricing" class="block w-fit mx-auto text-center text-gray-300 mb-12 px-2.5 py-1.5 border border-gray-300 rounded-lg hover:text-gray-200 hover:border-gray-200 transition">Jump to pricing</a>
+	<div class="grid md:grid-cols-2 gap-8 px-4 max-w-7xl mx-auto">
+		{{ range .Site.Data.index.features }}
+		{{ range .pro }}
+		<div
+			id="{{ .title | anchorize }}"
+			class="scroll-mt-24 target:border-4 target:border-[#E8A04DB3] lg:flex flex-col justify-evenly bg-gradient-to-br from-gray-500 to-gray-700 border border-gray-500 p-8 lg:basis-[48%] rounded-lg"
+		>
 			<div class="lg:flex items-center">
 				<img
-					src="images/global-search.webp"
-					alt="Screenshot of the WordPress admin dashboard, with a popup search appearing over the dashboard that shows a result showing for a searched query, along with a few recent orders. The ID, status, name, and date of the orders are previewed."
+					src="images/{{ .image }}"
+					alt="{{ .imageAlt }}"
 					class="mb-8 rounded-lg w-full"
 				>
 			</div>
 			<div>
-				<h3 class="text-2xl font-semibold mb-2">Search orders from anywhere</h3>
-				<p class="text-gray-200">Need to jump to a specific order? Use Dashify’s quick search to get to the order from any page in the WordPress admin.</p>
+				<h3 class="text-2xl font-semibold mb-2">{{ .title }}</h3>
+				<p class="text-gray-200">{{ .description }}</p>
 			</div>
 			<div class="mt-6">
 				<a
-					href="/features/search/"
+					href="{{ .actionLink }}"
 					class="rounded-lg py-2 px-3 text-sm bg-gray-50 text-gray-800 hover:bg-gray-200 hover:text-gray-700 transition"
 				>
-					Learn about Dashify Search →
+					{{ .action }}
 				</a>
 			</div>
 		</div>
-		<div id="hide-custom-fields" class="scroll-mt-24 target:border-4 target:border-[#E8A04DB3] lg:flex flex-col justify-evenly bg-gradient-to-br from-gray-500 to-gray-700 border border-gray-500 p-8 lg:basis-[48%] rounded-lg m-0.5 mt-8">
-			<div class="lg:flex items-center">
-				<img
-					src="/images/hide-custom-fields.webp"
-					alt="Screenshot of the Dashify configuration window for custom fields. It lists the custom fields from the order that the window was opened from, and there’s a button to mark a custom field as hidden, which will hide it globally across all orders."
-					class="mb-8 rounded-lg w-full"
-				>
-			</div>
-			<div>
-				<h3 class="text-2xl font-semibold mb-2">Hide custom fields</h3>
-				<p class="text-gray-200">Don’t want to see specific custom fields? Choose which custom fields show in the order view.</p>
-			</div>
-			<div class="mt-6">
-				<a
-					href="/features/hide-custom-fields/"
-					class="rounded-lg py-2 px-3 text-sm bg-gray-50 text-gray-800 hover:bg-gray-200 hover:text-gray-700 transition"
-				>
-					Learn about hiding custom fields →
-				</a>
-			</div>
-		</div>
-		<div id="sku" class="scroll-mt-24 target:border-4 target:border-[#E8A04DB3] lg:flex flex-col justify-evenly bg-gradient-to-br from-gray-500 to-gray-700 border border-gray-500 p-8 lg:basis-[48%] rounded-lg m-0.5 mt-8">
-			<div class="lg:flex items-center">
-				<img
-					src="images/sku.webp"
-					alt="Screenshot of an order’s products in the WooCommerce order admin, showing SKU displayed as a separate column that can be sorted."
-					class="mb-8 rounded-lg w-full"
-				>
-			</div>
-			<div>
-				<h3 class="text-2xl font-semibold mb-2">Sort order items by SKU</h3>
-				<p class="text-gray-200">When packing orders that have many items, make just one walk down the shelves of your warehouse or fulfillment center.</p>
-			</div>
-			<div class="mt-6">
-				<a
-					href="/features/sort-by-sku/"
-					class="rounded-lg py-2 px-3 text-sm bg-gray-50 text-gray-800 hover:bg-gray-200 hover:text-gray-700 transition"
-				>
-					Learn about sorting by SKU →
-				</a>
-			</div>
-		</div>
-		<div id="future" class="scroll-mt-24 lg:flex flex-col justify-evenly bg-gradient-to-br from-gray-500 to-gray-700 border border-gray-500 p-8 lg:basis-[48%] rounded-lg m-0.5 mt-8">
+		{{ end }}
+		{{ end }}
+		<div id="future" class="scroll-mt-24 lg:flex flex-col justify-evenly bg-gradient-to-br from-gray-500 to-gray-700 border border-gray-500 p-8 lg:basis-[48%] rounded-lg">
 			<div>
 				<h3 class="text-2xl font-semibold mb-3">Future WooCommerce upgrades</h3>
-				<p class="text-gray-200"><a href="/roadmap/" class="underline underline-offset-2 font-medium">Check out our roadmap</a> for what’s coming up. We release new features and improve Dashify regularly.</p>
+				<p class="text-gray-200">
+					<a href="/roadmap/" class="underline underline-offset-2 font-medium">Check out our roadmap</a> for what’s coming up. We release new features and improve Dashify regularly.
+				</p>
 			</div>
 		</div>
 	</div>
@@ -312,7 +152,7 @@
 					<svg class="text-gray-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 						<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
 					</svg>
-					<a href="#order-navigation" class="text-blue-500 font-bold">Next and previous order buttons</a>
+					<a href="#previous-and-next-order-buttons" class="text-blue-500 font-bold">Next and previous order buttons</a>
 				</li>
 				<li class="py-4 flex items-center gap-2">
 					<svg class="text-gray-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -350,7 +190,7 @@
 					<svg class="text-gray-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 						<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
 					</svg>
-					<a href="#global-search" class="text-blue-500 font-bold">Search orders from any admin page</a>
+					<a href="#search-orders-from-anywhere" class="text-blue-500 font-bold">Search orders from any admin page</a>
 				</li>
 				<li class="py-4 flex items-center gap-2">
 					<svg class="text-gray-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -362,7 +202,7 @@
 					<svg class="text-gray-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 						<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
 					</svg>
-					<a href="#sku" class="text-blue-500 font-bold">Sort order items by SKU</a>
+					<a href="#sort-order-items-by-sku" class="text-blue-500 font-bold">Sort order items by SKU</a>
 				</li>
 				<li class="py-4 flex items-center gap-2">
 					<svg class="text-gray-500 w-5 h-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">

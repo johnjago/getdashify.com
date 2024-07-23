@@ -1,0 +1,79 @@
+[[features]]
+[[features.free]]
+	title = "Shopify-like order view"
+	description = "Looking for user friendly order editing? Dashify’s layout puts key information such as products, order number, date, and status at the top. All actions buttons are clear and grouped together."
+	image = "order-view.webp"
+	imageAlt = "Screenshot of how Dashify changes the WooCommerce admin order view to be more like Shopify in terms of layout and style."
+[[features.free]]
+	title = "Mobile-friendly order table"
+	description = "Check orders from your phone! Dashify makes the table responsive and fully usable on mobile devices."
+	image = "mobile-table.gif"
+	imageAlt = "Screenshot of the WooCommerce order table fitting on mobile with Dashify."
+[[features.free]]
+	title = "Previous and next order buttons"
+	description = "From the order view, jump to the previous or next order with a button or keyboard shortcut. Optionally, skip to the next order of the same status."
+	image = "previous-next-order-buttons.webp"
+	imageAlt = "Screenshot of the previous and next order buttons that Dashify adds to the top of the WooCommerce order view page."
+	action = "See it in action →"
+	actionLink = "/features/order-navigation/"
+[[features.free]]
+	title = "Localized date and time"
+	description = "View order date and time in your region’s local format."
+	image = "order-date-time.webp"
+	imageAlt = "Screenshot of the order status, date, and actions that Dashify moves to the top of the order view page."
+[[features.free]]
+	title = "Order trend graphs"
+	description = "See order trends to get insight into your store’s performance."
+	image = "trend-graphs.webp"
+	imageAlt = "Screenshot of the order trend graphs that Dashify adds to a WooCommerce store."
+[[features.free]]
+	title = "Order status filters"
+	description = "Without Dashify, the order status filters are small and easy to miss. Dashify makes it part of the table so it’s bigger and easier to click."
+	image = "order-status-filters.webp"
+	imageAlt = "Screenshot of how Dashify make the order status selection for the WooCommerce order table more obvious."
+[[features.free]]
+	title = "Floating bulk actions"
+	description = "If you’re in the middle of a long list of orders, the bulk actions appear as a floating bar, allowing you to perform actions without having to scroll back up."
+	image = "bulk-actions.webp"
+	imageAlt = "Screenshot of floating bulk actions in the WooCommerce order list added by Dashify."
+[[features.free]]
+	title = "Search and filter"
+	description = "In normal WooCommerce, all the filters and search are visible, making the page cluttered. With Dashify, the filters and search are neatly grouped together, and hidden when not in use."
+	image = "search.gif"
+	imageAlt = "Screenshot of how Dashify changes the look and feel of the order search and filter in WooCommerce."
+[[features.free]]
+	title = "Timeline"
+	description = "The order notes becomes a timeline, giving you more space for important context about the order."
+	image = "timeline.webp"
+	imageAlt = "Screenshot of the restyled order notes, which Dashify displays in the form of a timeline."
+[[features.free]]
+	title = "Back button"
+	description = "Go back to the order list quickly from any order."
+	image = "back-button.webp"
+	imageAlt = "Screenshot showing the back button that Dashify adds to the order view page."
+[[features.free]]
+	title = "Auto-expanding order notes"
+	description = "Type long order notes with ease with Dashify’s auto-expanding fields."
+	image = "auto-expanding-order-note-field.gif"
+	imageAlt = "Video showing the timeline add new note field auto expanding as the user types more lines."
+[[features.pro]]
+	title = "Search orders from anywhere"
+	description = "Need to jump to a specific order? Use Dashify’s quick search to get to the order from any page in the WordPress admin."
+	image = "global-search.webp"
+	imageAlt = "Screenshot of the WordPress admin dashboard, with a popup search appearing over the dashboard that shows a result showing for a searched query, along with a few recent orders. The ID, status, name, and date of the orders are previewed."
+	action = "Learn about Dashify Search →"
+	actionLink = "/features/search/"
+[[features.pro]]
+	title = "Hide custom fields"
+	description = "Don’t want to see specific custom fields? Choose which custom fields show in the order view."
+	image = "hide-custom-fields.webp"
+	imageAlt = "Screenshot of the Dashify configuration window for custom fields. It lists the custom fields from the order that the window was opened from, and there’s a button to mark a custom field as hidden, which will hide it globally across all orders."
+	action = "Learn about hiding custom fields →"
+	actionLink = "/features/hide-custom-fields/"
+[[features.pro]]
+	title = "Sort order items by SKU"
+	description = "When packing orders that have many items, make just one walk down the shelves of your warehouse or fulfillment center."
+	image = "sku.webp"
+	imageAlt = "Screenshot of an order’s products in the WooCommerce order admin, showing SKU displayed as a separate column that can be sorted."
+	action = "Learn about sorting by SKU →"
+	actionLink = "/features/sort-by-sku/"
