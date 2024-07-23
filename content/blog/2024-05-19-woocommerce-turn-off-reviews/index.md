@@ -7,7 +7,7 @@ draft = false
 +++
 
 {{< rawhtml >}}
-<div class="rounded-lg px-8 py-8 bg-[#9D6095E3] text-gray-50 text-lg">
+<div class="rounded-lg px-8 py-8 bg-[#804D79E3] text-gray-50 text-lg">
 	<h2 class="text-gray-50" style="margin-top: 0; margin-bottom: 0.6rem;">Summary</h2>
 	<p style="margin-bottom: 0;">Want to hide the product reviews from the product page in WooCommerce? This short tutorial shows you how to do it in just a couple clicks, no custom code or plugins required.</p>
 </div>

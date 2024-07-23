@@ -7,7 +7,7 @@ summary = 'If a plugin you want to use is not compatible with HPOS, here is how 
 +++
 
 {{< rawhtml >}}
-<div class="rounded-lg px-8 py-8 bg-[#9D6095E3] text-gray-50 text-lg">
+<div class="rounded-lg px-8 py-8 bg-[#804D79E3] text-gray-50 text-lg">
 	<h2 class="text-gray-50" style="margin-top: 0; margin-bottom: 0.6rem;">Summary</h2>
 	<p style="margin-bottom: 0;">After October 2023, new WooCommerce stores will have High-Performance Order Storage (HPOS) turned on by default. HPOS changes how WooCommerce saves orders in the database—they are no longer saved as WordPress posts and it’s supposed to be faster. However, some plugins might not work with HPOS. If a plugin you want to use is not compatible with HPOS, here is how you can disable HPOS.</p>
 </div>

@@ -7,7 +7,7 @@ draft = false
 +++
 
 {{< rawhtml >}}
-<div class="rounded-lg px-8 py-8 bg-[#9D6095E3] text-gray-50 text-lg">
+<div class="rounded-lg px-8 py-8 bg-[#804D79E3] text-gray-50 text-lg">
 	<h2 class="text-gray-50" style="margin-top: 0; margin-bottom: 0.6rem;">Summary</h2>
 	<p style="margin-bottom: 0;">This is a short tutorial on how to disable the “add a coupon” field on the cart and checkout pages in WooCommerce.</p>
 </div>

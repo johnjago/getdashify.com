@@ -6,7 +6,7 @@ date = 2024-07-11T15:03:22-05:00
 +++
 
 {{< rawhtml >}}
-<div class="rounded-lg px-8 py-8 bg-[#9D6095E3] text-gray-50 text-lg">
+<div class="rounded-lg px-8 py-8 bg-[#804D79E3] text-gray-50 text-lg">
 	<h2 class="text-gray-50" style="margin-top: 0; margin-bottom: 0.6rem;">Summary</h2>
 	<p style="margin-bottom: 0;">The <a href="https://playground.wordpress.net" class="text-gray-50">WordPress Playground</a> is a free alternative to InstaWP that lets you create temporary WordPress sites from your browser, no account required, and without any restrictions on the number of sites you can create.</p>
 </div>

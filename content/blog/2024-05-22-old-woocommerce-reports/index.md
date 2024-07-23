@@ -7,7 +7,7 @@ draft = false
 +++
 
 {{< rawhtml >}}
-<div class="rounded-lg px-8 py-8 bg-[#9D6095E3] text-gray-50 text-lg">
+<div class="rounded-lg px-8 py-8 bg-[#804D79E3] text-gray-50 text-lg">
 	<h2 class="text-gray-50" style="margin-top: 0; margin-bottom: 0.6rem;">Summary</h2>
 	<p style="margin-bottom: 0;">This is a short tutorial on where to find the old WooCommerce reports that were replaced by WooCommerce Analytics in WooCommerce 4.0. Even as of May 2024 and WooCommerce 8.0, the old reports are still available.</p>
 </div>
