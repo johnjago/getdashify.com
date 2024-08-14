@@ -2,7 +2,8 @@
 module.exports = {
   content: [
     "layouts/**/*.html",
-    "content/**/*.md"
+    "content/**/*.md",
+    "data/**/*.toml"
   ],
   theme: {
     extend: {},

@@ -1,0 +1,61 @@
+[[section]]
+title = "Up next"
+description = "Things we plan to add to Dashify in the near future."
+bgColor = "bg-yellow-600"
+
+[[section.item]]
+title = "Order duplication"
+description = "Intuitive order duplication that lets you choose which information to copy over to the duplicated order."
+
+[[section.item]]
+title = "Find orders by customer name, email, or phone in Dashify Search"
+description = "From the quick search window in Dashify Pro, you’ll be able to search for orders by not just ID but also customer name, email, or phone number."
+
+[[section.item]]
+title = "Restyled top admin bar"
+description = "WordPress branding will be removed, and store actions like search and recent activity will be quickly accessible."
+
+[[section.item]]
+title = "Recent store activity feed"
+description = "Get a feed of what’s been happening on your store. Orders, admin user actions, and everything else."
+
+[[section.item]]
+title = "Restyled coupons list & edit"
+
+[[section.item]]
+title = "Restyled WooCommerce settings"
+
+
+
+[[section]]
+title = "Working on"
+description = "What we’re building now."
+bgColor = "bg-blue-600"
+
+[[section.item]]
+title = "Restyled product list"
+description = "The “All Products” page in WooCommerce will have the same modern and convenient styling as the order list."
+
+
+
+[[section]]
+title = "Released"
+description = "What’s been completed."
+bgColor = "bg-green-600"
+
+[[section.item]]
+title = "WooCommerce-focused admin navigation"
+description = "Making it modern and ecommerce-focused! WooCommerce pages such as orders will be made more prominent. You’ll be able to turn this off if it doesn’t suit the store."
+date = 2024-08-09
+link = "/releases/2024-08-09-woocommerce-focused-navigation/"
+
+
+
+[[section]]
+title = "Ideas"
+description = "Things Dashify users have suggested but that we don’t have plans to do yet."
+bgColor = "bg-gray-600"
+
+[[section.item]]
+title = "Widget for a table of orders in shopper-facing pages"
+description = "It would be similar to [WooCommerce Order List Table for Elementor](https://wordpress.org/plugins/order-list-table-elementor-widget/), but not only for Elementor."

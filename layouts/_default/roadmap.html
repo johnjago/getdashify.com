@@ -1,0 +1,32 @@
+{{ define "main" }}
+<div class="max-w-7xl mx-auto px-4 pt-40 pb-28">
+	<div class="prose prose-lg max-w-none mb-16">
+		<h1>{{ .Title }}</h1>
+		{{ .Content }}
+	</div>
+	<div class="md:grid grid-flow-col auto-cols-fr gap-4">
+		{{ range .Site.Data.roadmap.section }}
+		<div class='{{ if eq .title "Ideas" }}md:order-first{{ end }} mb-8 md:mb-0'>
+			<h2 class="font-semibold {{ .bgColor }} text-gray-50 w-fit py-1 px-2 rounded-lg mb-2">{{ .title }}</h2>
+			<p class="text-sm text-gray-600 mb-4 px-1 md:min-h-[2.5rem]">{{ .description }}</p>
+			{{ range .item }}
+			<div class='text-sm relative dark:ring-1 dark:ring-black/10 group min-w-0 p-3 mb-3 border rounded-lg shadow-sm bg-white dark:shadow dark:bg-secondary/70 dark:hover:bg-secondary dark:border-border main-transition border-gray-100/60'>
+				<h3 class="font-semibold">{{ .title }}</h3>
+				{{ if .description }}
+					<p class="mt-2 prose prose-a:text-blue-600 prose-a:no-underline hover:prose-a:underline prose-a:font-normal text-xs">{{ .description | markdownify }}</p>
+				{{ end }}
+				{{ if .date }}
+					<div class="text-xs text-gray-500 mt-4 flex flex-row justify-between md:flex-col lg:flex-row">
+					{{ .date }}
+					{{ if .link }}
+						<a href="{{ .link }}" class="text-blue-600 hover:underline underline-offset-2">Release notes →</a>
+					{{ end }}
+					</div>
+				{{ end }}
+			</div>
+			{{ end }}
+		</div>
+		{{ end }}
+	</div>
+</div>
+{{ end }}
