@@ -8,10 +8,6 @@ title = "Order duplication"
 description = "Intuitive order duplication that lets you choose which information to copy over to the duplicated order."
 
 [[section.item]]
-title = "Find orders by customer name, email, or phone in Dashify Search"
-description = "From the quick search window in Dashify Pro, you’ll be able to search for orders by not just ID but also customer name, email, or phone number."
-
-[[section.item]]
 title = "Restyled top admin bar"
 description = "WordPress branding will be removed, and store actions like search and recent activity will be quickly accessible."
 
@@ -25,6 +21,14 @@ title = "Restyled coupons list & edit"
 [[section.item]]
 title = "Restyled WooCommerce settings"
 
+[[section.item]]
+title = "Search products from any admin page"
+description = "Dashify’s quick search will let you search not just orders, but products too."
+
+[[section.item]]
+title = "Search all WooCommerce settings"
+description = "Don’t know where to find something in all the tabs? Search for the setting you want to change."
+
 
 
 [[section]]
@@ -33,8 +37,8 @@ description = "What we’re building now."
 bgColor = "bg-blue-600"
 
 [[section.item]]
-title = "Restyled product list"
-description = "The “All Products” page in WooCommerce will have the same modern and convenient styling as the order list."
+title = "Find orders by customer name, email, or phone in Dashify Search"
+description = "From the quick search window in Dashify Pro, you’ll be able to search for orders by not just ID but also customer name, email, or phone number."
 
 
 
@@ -42,6 +46,12 @@ description = "The “All Products” page in WooCommerce will have the same mod
 title = "Released"
 description = "What’s been completed."
 bgColor = "bg-green-600"
+
+[[section.item]]
+title = "Restyled product list"
+description = "The “All Products” page in WooCommerce will have the same modern and convenient styling as the order list."
+date = 2024-08-17
+link = "/releases/2024-08-17-restyled-product-list/"
 
 [[section.item]]
 title = "WooCommerce-focused admin navigation"
