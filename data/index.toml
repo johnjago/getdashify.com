@@ -1,31 +1,31 @@
 [[features]]
 [[features.free]]
 	title = "Shopify-like order view"
-	description = "Looking for user friendly order editing? Dashify’s layout puts key information such as products, order number, date, and status at the top. All actions buttons are clear and grouped together."
+	description = "Switched from Shopify to WooCommerce but miss the design? Dashify makes the order view just as user-friendly."
 	image = "order-view.webp"
 	imageAlt = "Screenshot of how Dashify changes the WooCommerce admin order view to be more like Shopify in terms of layout and style."
 [[features.free]]
-	title = "Mobile-friendly order table"
-	description = "Check orders from your phone! Dashify makes the table responsive and fully usable on mobile devices."
-	image = "mobile-table.gif"
-	imageAlt = "Screenshot of the WooCommerce order table fitting on mobile with Dashify."
+	title = "WooCommerce-first navigation"
+	description = "Quick access to all of WooCommerce without searching through submenus. WordPress menu items are moved down and out of the way."
+	image = "navigation.png"
+	imageAlt = "Screenshot of the WordPress admin navigation when Dashify is enabled, showing WooCommerce items at the top of the sidebar in a new design. Also, items such as Orders that were previously in a submenu are now one click away."
 [[features.free]]
 	title = "Previous and next order buttons"
-	description = "From the order view, jump to the previous or next order with a button or keyboard shortcut. Optionally, skip to the next order of the same status."
+	description = "Jump to the previous or next order with a button or keyboard shortcut. You can also skip to the next order of the same status."
 	image = "previous-next-order-buttons.webp"
 	imageAlt = "Screenshot of the previous and next order buttons that Dashify adds to the top of the WooCommerce order view page."
 	action = "See it in action →"
 	actionLink = "/features/order-navigation/"
 [[features.free]]
+	title = "Order trend graphs"
+	description = "Know how your store has been doing recently with a quick glance. See the trend of orders, refunded and completed, over different time periods."
+	image = "trend-graphs.webp"
+	imageAlt = "Screenshot of the order trend graphs that Dashify adds to a WooCommerce store."
+[[features.free]]
 	title = "Localized date and time"
 	description = "View order date and time in your region’s local format."
 	image = "order-date-time.webp"
 	imageAlt = "Screenshot of the order status, date, and actions that Dashify moves to the top of the order view page."
-[[features.free]]
-	title = "Order trend graphs"
-	description = "See order trends to get insight into your store’s performance."
-	image = "trend-graphs.webp"
-	imageAlt = "Screenshot of the order trend graphs that Dashify adds to a WooCommerce store."
 [[features.free]]
 	title = "Order status filters"
 	description = "Without Dashify, the order status filters are small and easy to miss. Dashify makes it part of the table so it’s bigger and easier to click."
@@ -43,19 +43,29 @@
 	imageAlt = "Screenshot of how Dashify changes the look and feel of the order search and filter in WooCommerce."
 [[features.free]]
 	title = "Timeline"
-	description = "The order notes becomes a timeline, giving you more space for important context about the order."
+	description = "Order notes become a timeline, giving you more space to add long notes and see order history."
 	image = "timeline.webp"
 	imageAlt = "Screenshot of the restyled order notes, which Dashify displays in the form of a timeline."
+[[features.free]]
+	title = "Auto-expanding order notes"
+	description = "Type long order notes with Dashify’s auto-expanding fields."
+	image = "auto-expanding-order-note-field.gif"
+	imageAlt = "Video showing the timeline add new note field auto expanding as the user types more lines."
 [[features.free]]
 	title = "Back button"
 	description = "Go back to the order list quickly from any order."
 	image = "back-button.webp"
 	imageAlt = "Screenshot showing the back button that Dashify adds to the order view page."
 [[features.free]]
-	title = "Auto-expanding order notes"
-	description = "Type long order notes with ease with Dashify’s auto-expanding fields."
-	image = "auto-expanding-order-note-field.gif"
-	imageAlt = "Video showing the timeline add new note field auto expanding as the user types more lines."
+	title = "Mobile-friendly order table"
+	description = "Check orders from your phone! Dashify makes the table responsive and fully usable on mobile devices."
+	image = "mobile-table.gif"
+	imageAlt = "Screenshot of the WooCommerce order table fitting on mobile with Dashify."
+[[features.pro]]
+	title = "Restyled product list"
+	description = "The product list gets the same organized, modern design as the order list."
+	image = "product-list-table-only.webp"
+	imageAlt = "Screenshot of the WooCommerce product list with Dashify enabled. The table that shows all the products has a modern design, and elements of the page are grouped intuitively. For example, all searching and filtering happens at the top of the table, after clicking a search and filter icon."
 [[features.pro]]
 	title = "Search orders from anywhere"
 	description = "Need to jump to a specific order? Use Dashify’s quick search to get to the order from any page in the WordPress admin."
