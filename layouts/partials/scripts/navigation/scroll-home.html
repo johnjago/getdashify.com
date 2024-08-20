@@ -2,12 +2,14 @@
 	window.addEventListener('scroll', function() {
 		const navbar = document.querySelector('#navbar');
 		const logo = document.querySelector('#nav-logo');
-		const links = document.querySelectorAll('nav a');
+		const menuIcon = document.querySelector('#menu-icon');
+		const links = document.querySelectorAll('nav#desktop-nav a');
 		const downloadLink = document.querySelector('#nav-download-link');
 
 		if (window.scrollY > 50) {
 			navbar.classList.add('bg-[#ffffff56]', 'shadow-sm');
 			logo.classList.add('bg-gray-800')
+			menuIcon.classList.add('bg-gray-800')
 			for (const link of links) {
 				link.classList.add('text-gray-800');
 			}
@@ -16,6 +18,7 @@
 		} else {
 			navbar.classList.remove('bg-[#ffffff56]', 'shadow-sm');
 			logo.classList.remove('bg-gray-800')
+			menuIcon.classList.remove('bg-gray-800')
 			for (const link of links) {
 				link.classList.remove('text-gray-800');
 			}

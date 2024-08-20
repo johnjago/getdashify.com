@@ -1,0 +1,45 @@
+<img id="menu-icon" role="button" width="30" height="30" class="lg:hidden {{ .color }}">
+<nav id="mobile-nav" class="fixed flex flex-col h-fit inset-2 bg-gray-50 rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 divide-y-2 divide-gray-100 opacity-0 invisible transition">
+	<div class="flex justify-between items-center p-4">
+		<div id="nav-logo" class="bg-gray-800 w-[80px] h-[40px]"></div>
+		<button id="menu-close-button" role="button" aria-label="Close menu" class="hover:bg-gray-200 w-8 h-8 rounded-lg flex justify-center items-center transition-colors">
+			<img id="menu-close-icon" class="bg-gray-500 w-5 h-5">
+		</button>
+	</div>
+	<ul class="py-5 px-4 grid grid-cols-1 gap-4">
+		<li><a href="/#features" class="hover:text-gray-500 transition-colors">Features</a></li>
+		<li><a href="/#pricing" class="hover:text-gray-500 transition-colors">Pricing</a></li>
+		<li><a href="/releases/" class="whitespace-nowrap hover:text-gray-500 transition-colors">What’s new</a></li>
+		<li><a href="/blog/" class="hover:text-gray-500 transition-colors">Blog</a></li>
+		<li><a href="https://forms.gle/pRezSbdUcZmvZdX27" class="hover:text-gray-500 transition-colors">Help</a></li>
+		<li class="text-center">
+			<a
+				href="/#pricing"
+				class="inline-block whitespace-nowrap px-4 py-2 w-full rounded-full bg-gray-800 text-gray-50 hover:bg-gray-700 transition-colors"
+			>
+				Get Dashify
+			</a>
+		</li>
+		<li class="text-center">Looking to manage your license? <a href="https://account.getdashify.com/login" class="transition text-blue-600 font-medium">Log in</a></li>
+	</ul>
+</nav>
+<script>
+	document.addEventListener('DOMContentLoaded', addNavEventListeners);
+
+	function addNavEventListeners() {
+		document.querySelector('#menu-icon').addEventListener('click', openMobileMenu);
+		document.querySelector('#menu-close-button').addEventListener('click', closeMobileMenu);
+		const samePageLinks = document.querySelectorAll('a[href="/#features"], a[href="/#pricing"]');
+		for (const link of samePageLinks) {
+			link.addEventListener('click', closeMobileMenu);
+		}
+	}
+
+	function openMobileMenu() {
+		document.querySelector('#mobile-nav').classList.remove('opacity-0', 'invisible');
+	}
+
+	function closeMobileMenu() {
+		document.querySelector('#mobile-nav').classList.add('opacity-0', 'invisible');
+	}
+</script>
