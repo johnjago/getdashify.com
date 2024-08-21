@@ -1,5 +1,6 @@
 +++
 title = 'Compatibility'
+layout = 'single'
 +++
 
 We understand that plugin compatibility is important in WordPress. If you’re already using a suite of plugins to run your store, and a new plugin doesn’t work well with them, it’s hard to justify getting that new plugin.

@@ -8,6 +8,6 @@ Both the list of subscriptions and the page to edit subscriptions have been rede
 
 Dashify also adds graphs that show recent subscription trends. You can see your revenue from subscriptions, newly created subscriptions, and cancelled subscriptions over 30 day, 7 day, 24 hour, and today time periods.
 
-![Screenshot of the list of active subscriptions in WooCommerce Subscriptions with the Dashify plugin enabled, which has given the list a modern design.](/images/subscriptions.png)
+![Screenshot of the list of active subscriptions in WooCommerce Subscriptions with the Dashify plugin enabled, which has given the list a modern design.](subscriptions.png)
 
 [Learn more about Dashify’s compatibility efforts →](/compatibility/)
