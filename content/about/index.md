@@ -20,7 +20,7 @@ And so we set out to create Dashify, the WooCommerce extension that transforms t
 				height="100"
 			>
 			<p>
-				Sumin, having had several years of experience developing for WooCommerce and empowering ecommerce merchants in their endeavors, now does everything from design, development, and ideation. She never passes on an opportunity to make something look good and to help people out.
+				Sumin has been contributing her technical and problem-solving skills in the WordPress and WooCommerce ecosystem for the past two years. At Dashify, her front-end knowledge and judgment have been valuable in the ideation, design, and development of the product.
 			</p>
 		</div>
 		<div class="text-center">
@@ -31,7 +31,7 @@ And so we set out to create Dashify, the WooCommerce extension that transforms t
 				height="100"
 			>
 			<p>
-				John has worked with WooCommerce for the past 4 years and WordPress for 7 years, giving him a deep understanding of the needs of those using the WordPress admin. With that understanding, he hopes to improve the experience of every merchant on WooCommerce. If you reach out to support, you’ll probably talk to him!
+				After working on a payments plugin for four years, John has developed a deep understanding of the needs of WooCommerce users. Using that experience, he hopes to bring many improvements to WooCommerce so that all merchants can enjoy the time they spend managing their store.
 			</p>
 		</div>
 	</div>
