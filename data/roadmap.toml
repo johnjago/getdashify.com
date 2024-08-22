@@ -4,6 +4,10 @@ description = "Things we plan to add to Dashify in the near future."
 bgColor = "bg-yellow-600"
 
 [[section.item]]
+title = "Compatibility with Admin Menu Editor"
+description = "The Dashify WooCommerce-focused navigation will allow changes to be made through the Admin Menu Editor plugin, and it will respect existing configuration."
+
+[[section.item]]
 title = "Order duplication"
 description = "Intuitive order duplication that lets you choose which information to copy over to the duplicated order."
 
@@ -20,6 +24,10 @@ title = "Restyled coupons list & edit"
 
 [[section.item]]
 title = "Restyled WooCommerce settings"
+
+[[section.item]]
+title = "Restyled product edit page"
+description = "Although WooCommerce has a new product editor in beta, Dashify will restyle the existing one for a uniform look throughout the dashboard."
 
 [[section.item]]
 title = "Search products from any admin page"
@@ -65,6 +73,10 @@ link = "/releases/2024-08-09-woocommerce-focused-navigation/"
 title = "Ideas"
 description = "Things Dashify users have suggested but that we don’t have plans to do yet."
 bgColor = "bg-gray-600"
+
+[[section.item]]
+title = "View orders from all stores in a WordPress multisite installation"
+description = "Through a single interface, you’d be able to see orders across all WooCommerce stores in a multisite network."
 
 [[section.item]]
 title = "Widget for a table of orders in shopper-facing pages"
