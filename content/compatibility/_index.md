@@ -12,6 +12,8 @@ At the same time, we’ve done extensive testing with select plugins to ensure t
 - [WooCommerce Subscriptions](/compatibility/woocommerce-subscriptions/)
 - [PDF Invoices & Packing Slips for WooCommerce](/compatibility/woocommerce-pdf-invoices-packing-slips/)
 - [RD Order Modifier for WooCommerce](/compatibility/rd-wc-order-modifier/)
+- [Rank Math](/compatibility/seo-by-rank-math/)
+- [Admin Menu Editor](/compatibility/admin-menu-editor/)
 
 ## Want to have your plugin featured here?
 
