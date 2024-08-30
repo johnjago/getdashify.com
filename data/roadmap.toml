@@ -4,8 +4,8 @@ description = "Things we plan to add to Dashify in the near future."
 bgColor = "bg-yellow-600"
 
 [[section.item]]
-title = "Compatibility with Admin Menu Editor"
-description = "The Dashify WooCommerce-focused navigation will allow changes to be made through the Admin Menu Editor plugin, and it will respect existing configuration."
+title = "Search SKUs within orders"
+description = "Find all orders that have a certain product SKU through the Dashify global search."
 
 [[section.item]]
 title = "Order duplication"
@@ -54,6 +54,12 @@ description = "From the quick search window in Dashify Pro, you’ll be able to 
 title = "Released"
 description = "What’s been completed."
 bgColor = "bg-green-600"
+
+[[section.item]]
+title = "Compatibility with Admin Menu Editor"
+description = "The Dashify WooCommerce-focused navigation will allow changes to be made through the Admin Menu Editor plugin, and it will respect existing configuration."
+date = 2024-08-27
+link = "/releases/2024-08-27-admin-menu-editor-compatibility/"
 
 [[section.item]]
 title = "Restyled product list"
