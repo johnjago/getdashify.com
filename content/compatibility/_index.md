@@ -10,10 +10,12 @@ That is why we’ve designed Dashify to be compatible with nearly all admin plug
 At the same time, we’ve done extensive testing with select plugins to ensure they work well in Dashify:
 
 - [WooCommerce Subscriptions](/compatibility/woocommerce-subscriptions/)
-- [PDF Invoices & Packing Slips for WooCommerce](/compatibility/woocommerce-pdf-invoices-packing-slips/)
-- [RD Order Modifier for WooCommerce](/compatibility/rd-wc-order-modifier/)
-- [Rank Math](/compatibility/seo-by-rank-math/)
 - [Admin Menu Editor](/compatibility/admin-menu-editor/)
+- [PDF Invoices & Packing Slips for WooCommerce](/compatibility/woocommerce-pdf-invoices-packing-slips/)
+- [WooCommerce PDF Invoices, Packing Slips, Delivery Notes and Shipping Labels](/compatibility/print-invoices-packing-slip-labels-for-woocommerce/)
+- [WooPayments](/compatibility/woocommerce-payments/)
+- [Rank Math](/compatibility/seo-by-rank-math/)
+- [RD Order Modifier for WooCommerce](/compatibility/rd-wc-order-modifier/)
 
 ## Want to have your plugin featured here?
 
