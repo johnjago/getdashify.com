@@ -56,6 +56,12 @@ description = "What’s been completed."
 bgColor = "bg-green-600"
 
 [[section.item]]
+title = "Bulk actions support for third-party plugins"
+description = "Dashify’s floating bulk actions will show actions from any third-party plugin. Plus, they will be shown in the chosen admin language, not only English."
+date = 2024-09-04
+link = "/releases/2024-09-04-bulk-actions-compatibility/"
+
+[[section.item]]
 title = "Compatibility with Admin Menu Editor"
 description = "The Dashify WooCommerce-focused navigation will allow changes to be made through the Admin Menu Editor plugin, and it will respect existing configuration."
 date = 2024-08-27
