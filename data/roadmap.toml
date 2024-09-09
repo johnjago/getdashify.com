@@ -4,10 +4,6 @@ description = "Things we plan to add to Dashify in the near future."
 bgColor = "bg-yellow-600"
 
 [[section.item]]
-title = "Search SKUs within orders"
-description = "Find all orders that have a certain product SKU through the Dashify global search."
-
-[[section.item]]
 title = "Order duplication"
 description = "Intuitive order duplication that lets you choose which information to copy over to the duplicated order."
 
@@ -43,6 +39,10 @@ description = "Don’t know where to find something in all the tabs? Search for 
 title = "Working on"
 description = "What we’re building now."
 bgColor = "bg-blue-600"
+
+[[section.item]]
+title = "Search SKUs within orders"
+description = "Find all orders that have a certain product SKU through the Dashify global search."
 
 [[section.item]]
 title = "Find orders by customer name, email, or phone in Dashify Search"
