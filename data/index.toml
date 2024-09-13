@@ -68,7 +68,7 @@
 	imageAlt = "Screenshot of the WooCommerce product list with Dashify enabled. The table that shows all the products has a modern design, and elements of the page are grouped intuitively. For example, all searching and filtering happens at the top of the table, after clicking a search and filter icon."
 [[features.pro]]
 	title = "Search orders from anywhere"
-	description = "Need to jump to a specific order? Use Dashify’s quick search to get to the order from any page in the WordPress admin."
+	description = "Use Dashify’s global search to jump to an order from any page in the admin. Search by order ID, name, email, phone, or product SKU."
 	image = "global-search.webp"
 	imageAlt = "Screenshot of the WordPress admin dashboard, with a popup search appearing over the dashboard that shows a result showing for a searched query, along with a few recent orders. The ID, status, name, and date of the orders are previewed."
 	action = "Learn about Dashify Search →"
