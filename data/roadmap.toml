@@ -4,10 +4,6 @@ description = "Things we plan to add to Dashify in the near future."
 bgColor = "bg-yellow-600"
 
 [[section.item]]
-title = "Order duplication"
-description = "Intuitive order duplication that lets you choose which information to copy over to the duplicated order."
-
-[[section.item]]
 title = "Restyled top admin bar"
 description = "WordPress branding will be removed, and store actions like search and recent activity will be quickly accessible."
 
@@ -41,12 +37,8 @@ description = "What we’re building now."
 bgColor = "bg-blue-600"
 
 [[section.item]]
-title = "Search SKUs within orders"
-description = "Find all orders that have a certain product SKU through the Dashify global search."
-
-[[section.item]]
-title = "Find orders by customer name, email, or phone in Dashify Search"
-description = "From the quick search window in Dashify Pro, you’ll be able to search for orders by not just ID but also customer name, email, or phone number."
+title = "Order duplication"
+description = "Intuitive order duplication that lets you choose which information to copy to the new order."
 
 
 
@@ -54,6 +46,18 @@ description = "From the quick search window in Dashify Pro, you’ll be able to 
 title = "Released"
 description = "What’s been completed."
 bgColor = "bg-green-600"
+
+[[section.item]]
+title = "Search orders by SKU"
+description = "Find orders that have a certain product SKU through the Dashify Pro global search."
+date = 2024-09-12
+link = "/releases/2024-09-12-expanded-global-order-search/"
+
+[[section.item]]
+title = "Search orders by customer name, email, or phone"
+description = "From the global search in Dashify Pro, find orders by these customer details."
+date = 2024-09-12
+link = "/releases/2024-09-12-expanded-global-order-search/"
 
 [[section.item]]
 title = "Bulk actions support for third-party plugins"
