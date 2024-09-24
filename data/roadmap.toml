@@ -4,6 +4,10 @@ description = "Things we plan to add to Dashify in the near future."
 bgColor = "bg-yellow-600"
 
 [[section.item]]
+title = "Sort order items by menu order"
+description = "You’ll be able to sort the line items in a customer’s order by the same custom sort you’ve set in the WooCommerce product list."
+
+[[section.item]]
 title = "Restyled top admin bar"
 description = "WordPress branding will be removed, and store actions like search and recent activity will be quickly accessible."
 
