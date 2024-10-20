@@ -4,8 +4,8 @@ description = "Things we plan to add to Dashify in the near future."
 bgColor = "bg-yellow-600"
 
 [[section.item]]
-title = "Number of search results"
-description = "In the order list search results, see the total number of matches for that query."
+title = "Order duplication"
+description = "Intuitive order duplication that lets you choose which information to copy to the new order."
 
 [[section.item]]
 title = "Restyled top admin bar"
@@ -41,12 +41,12 @@ description = "What we’re building now."
 bgColor = "bg-blue-600"
 
 [[section.item]]
-title = "Sort order items by menu order"
-description = "You’ll be able to sort the line items in a customer’s order by the same custom sort you’ve set in the WooCommerce product list."
+title = "Number of search results"
+description = "In the order list search results, see the total number of matches for that query."
 
 [[section.item]]
-title = "Order duplication"
-description = "Intuitive order duplication that lets you choose which information to copy to the new order."
+title = "Sort order items by menu order"
+description = "You’ll be able to sort the line items in a customer’s order by the same custom sort you’ve set in the WooCommerce product list."
 
 
 
