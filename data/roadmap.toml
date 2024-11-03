@@ -19,9 +19,6 @@ description = "Get a feed of what’s been happening on your store. Orders, admi
 title = "Restyled coupons list & edit"
 
 [[section.item]]
-title = "Restyled WooCommerce settings"
-
-[[section.item]]
 title = "Restyled product edit page"
 description = "Although WooCommerce has a new product editor in beta, Dashify will restyle the existing one for a uniform look throughout the dashboard."
 
@@ -33,6 +30,22 @@ description = "Dashify’s quick search will let you search not just orders, but
 title = "Search all WooCommerce settings"
 description = "Don’t know where to find something in all the tabs? Search for the setting you want to change."
 
+[[section.item]]
+title = "Shortcuts"
+description = "Set up shortcuts to different areas of WooCommerce or other plugins."
+
+[[section.item]]
+title = "Live analytics"
+description = "See online visitors, product views, order counts, and other key numbers in a single, automatically updating dashboard."
+
+[[section.item]]
+title = "Move admin menu items"
+description = "Change the position of admin menu items without third-party plugins."
+
+[[section.item]]
+title = "Hide admin menu items"
+description = "Make certain admin menu items hidden."
+
 
 
 [[section]]
@@ -41,12 +54,7 @@ description = "What we’re building now."
 bgColor = "bg-blue-600"
 
 [[section.item]]
-title = "Number of search results"
-description = "In the order list search results, see the total number of matches for that query."
-
-[[section.item]]
-title = "Sort order items by menu order"
-description = "You’ll be able to sort the line items in a customer’s order by the same custom sort you’ve set in the WooCommerce product list."
+title = "Restyled WooCommerce settings"
 
 
 
@@ -54,6 +62,18 @@ description = "You’ll be able to sort the line items in a customer’s order b
 title = "Released"
 description = "What’s been completed."
 bgColor = "bg-green-600"
+
+[[section.item]]
+title = "Sort order items by menu order"
+description = "You’ll be able to sort the line items in a customer’s order by the same custom sort you’ve set in the WooCommerce product list."
+date = 2024-10-30
+link = "/releases/2024-10-30-line-item-menu-order-sort/"
+
+[[section.item]]
+title = "Search result count"
+description = "In the order, subscription, and product list search results, see the total number of matches for that query."
+date = 2024-10-30
+link = "/releases/2024-10-30-search-result-count/"
 
 [[section.item]]
 title = "Search orders by SKU"
