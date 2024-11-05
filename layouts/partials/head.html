@@ -8,7 +8,7 @@
 		{{ end }}
 	</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<meta name="description" content="{{ if .Summary }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+	<meta name="description" content="{{ if .Summary }}{{ .Summary }}{{ else if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 	<link rel="canonical" href="{{ .Permalink }}">
 	<link rel="icon" href="/images/icon.svg">
 	{{ with resources.Get "style.out.css" | fingerprint }}
