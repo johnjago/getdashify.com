@@ -87,3 +87,10 @@
 	imageAlt = "Screenshot of an order’s products in the WooCommerce order admin, showing SKU displayed as a separate column that can be sorted."
 	action = "Learn about sorting by SKU →"
 	actionLink = "/features/sort-by-sku/"
+[[features.pro]]
+	title = "Sort order items by “menu order”"
+	description = "Do you organize your inventory by the product “menu order”? Save time packing orders by viewing the items in a custom’s order with the same sorting as the Shop page."
+	image = "menu-order.webp"
+	imageAlt = "Screenshot of the “Menu order” column that Dashify adds to the line items in the admin order edit view in WooCommerce. This column has a number which represents the position of the product on the store’s Shop page."
+	action = "Learn about “menu order” sort →"
+	actionLink = "/features/sort-by-menu-order/"
