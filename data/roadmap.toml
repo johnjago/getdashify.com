@@ -54,6 +54,9 @@ description = "What we’re building now."
 bgColor = "bg-blue-600"
 
 [[section.item]]
+title = "Order edit view visual improvements"
+
+[[section.item]]
 title = "Restyled WooCommerce settings"
 
 
