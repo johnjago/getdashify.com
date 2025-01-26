@@ -1,3 +1,3 @@
 +++
-title = 'WooCommerce tutorials, tips, and news'
+title = 'The Dashify Blog: WooCommerce tutorials and more'
 +++
