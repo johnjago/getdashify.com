@@ -1,5 +1,5 @@
 +++
-title = 'March bug fixes'
+title = 'Dashify 1.1.2: Bug fixes'
 slug = 'march-2024-bug-fixes'
 date = '2024-03-06'
 draft = false

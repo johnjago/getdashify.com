@@ -1,5 +1,5 @@
 +++
-title = 'Hide specific custom fields'
+title = 'Dashify Pro 1.2.0: Hide specific custom fields'
 slug = '2024-07-20-hide-custom-fields'
 date = '2024-07-20T17:41:57-05:00'
 pro = true

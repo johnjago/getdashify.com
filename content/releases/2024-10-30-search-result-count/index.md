@@ -1,5 +1,5 @@
 +++
-title = 'Search result count'
+title = 'Dashify 1.3.7: Search result count'
 slug = '2024-10-30-search-result-count'
 date = '2024-10-30T20:45:57-05:00'
 version = '1.3.7'

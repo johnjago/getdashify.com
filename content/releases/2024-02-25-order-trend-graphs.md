@@ -1,5 +1,5 @@
 +++
-title = 'Order trend graphs'
+title = 'Dashify 1.1.0: Order trend graphs'
 slug = 'order-trend-graphs'
 date = '2024-02-25'
 draft = false

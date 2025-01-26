@@ -1,5 +1,5 @@
 +++
-title = 'Custom fields styling consistency'
+title = 'Dashify 1.2.11: Custom fields styling consistency'
 slug = '2024-07-20-custom-fields-styling-consistency'
 date = '2024-07-20T15:41:57-05:00'
 version = '1.2.11'

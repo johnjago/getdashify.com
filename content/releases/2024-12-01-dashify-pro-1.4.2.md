@@ -1,5 +1,5 @@
 +++
-title = 'Dashify Pro 1.4.2 maintenance release'
+title = 'Dashify Pro 1.4.2: Improved performance'
 slug = '2024-12-01-dashify-pro-1.4.2'
 date = '2024-12-01T17:00:00-06:00'
 pro = true

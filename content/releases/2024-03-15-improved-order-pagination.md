@@ -1,5 +1,5 @@
 +++
-title = 'Improved order pagination'
+title = 'Dashify 1.1.3: Improved order pagination'
 slug = 'improved-order-pagination'
 date = '2024-03-15'
 draft = false

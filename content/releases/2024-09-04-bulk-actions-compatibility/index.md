@@ -1,5 +1,5 @@
 +++
-title = 'Bulk actions for all third-party plugins'
+title = 'Dashify 1.3.5: Bulk actions for all third-party plugins'
 slug = '2024-09-04-bulk-actions-compatibility'
 date = '2024-09-04T15:04:57-05:00'
 version = '1.3.5'

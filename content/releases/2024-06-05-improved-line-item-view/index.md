@@ -1,5 +1,5 @@
 +++
-title = 'Improved line item view'
+title = 'Dashify 1.2.5: Improved line item view'
 slug = '2024-06-05-improved-line-item-view'
 date = '2024-06-05'
 draft = false

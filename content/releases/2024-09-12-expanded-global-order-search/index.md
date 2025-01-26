@@ -1,5 +1,5 @@
 +++
-title = 'More ways to find orders in the global search'
+title = 'Dashify Pro 1.3.1: More ways to find orders in the global search'
 slug = '2024-09-12-expanded-global-order-search'
 date = '2024-09-12T18:04:57-05:00'
 pro = true

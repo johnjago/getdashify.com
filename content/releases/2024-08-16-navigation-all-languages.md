@@ -1,5 +1,5 @@
 +++
-title = 'Dashify’s navigation supports all languages'
+title = 'Dashify 1.3.1: Admin navigation in your language'
 slug = '2024-08-16-navigation-language-support'
 date = '2024-08-16T15:41:57-05:00'
 version = '1.3.1'

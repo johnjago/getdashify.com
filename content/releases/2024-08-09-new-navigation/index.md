@@ -1,5 +1,5 @@
 +++
-title = 'WooCommerce-focused admin navigation'
+title = 'Dashify 1.3.0: WooCommerce-focused admin navigation'
 slug = '2024-08-09-woocommerce-focused-navigation'
 date = '2024-08-09T13:47:57-05:00'
 version = '1.3.0'

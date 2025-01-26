@@ -1,5 +1,5 @@
 +++
-title = 'Subscriptions filter fix'
+title = 'Dashify 1.2.9: Bug fixes'
 slug = '2024-07-07-fix-subscriptions-filter'
 date = '2024-07-07T21:15:00-05:00'
 draft = false

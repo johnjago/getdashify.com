@@ -1,5 +1,5 @@
 +++
-title = 'Updates to the order search and bulk actions'
+title = 'Dashify 1.2.6: Updates to the order search and bulk actions'
 slug = '2024-06-18-search-and-bulk-actions'
 date = '2024-06-18'
 draft = false

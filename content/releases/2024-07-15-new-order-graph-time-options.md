@@ -1,5 +1,5 @@
 +++
-title = 'New order graph time options'
+title = 'Dashify 1.2.10: New order trend graph time options'
 slug = '2024-07-15-new-order-graph-time-options'
 date = '2024-07-15T15:41:57-05:00'
 version = '1.2.10'

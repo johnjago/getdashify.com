@@ -1,5 +1,5 @@
 +++
-title = 'Line items sorted by menu order'
+title = 'Dashify Pro 1.4.0: Line items sorted by menu order'
 slug = '2024-10-30-line-item-menu-order-sort'
 date = '2024-10-30T20:50:57-05:00'
 pro = true

@@ -1,5 +1,5 @@
 +++
-title = 'Move elements in Dashify’s order view'
+title = 'Dashify 1.2.8: Move elements in Dashify’s order view'
 slug = '2024-06-25-move-elements'
 date = '2024-06-25'
 draft = false

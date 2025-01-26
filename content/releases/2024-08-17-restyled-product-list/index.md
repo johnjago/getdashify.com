@@ -1,5 +1,5 @@
 +++
-title = 'Restyled product list'
+title = 'Dashify Pro 1.3.0: Restyled product list'
 slug = '2024-08-17-restyled-product-list'
 date = '2024-08-17T17:41:57-05:00'
 pro = true

@@ -1,5 +1,5 @@
 +++
-title = 'Admin Menu Editor compatibility'
+title = 'Dashify 1.3.3: Compatibility with Admin Menu Editor'
 slug = '2024-08-27-admin-menu-editor-compatibility'
 date = '2024-08-27T15:41:57-05:00'
 version = '1.3.3'

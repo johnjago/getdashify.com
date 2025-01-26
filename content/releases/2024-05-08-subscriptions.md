@@ -1,5 +1,5 @@
 +++
-title = 'Dashify for WooCommerce Subscriptions'
+title = 'Dashify 1.2.4: WooCommerce Subscriptions'
 slug = 'subscriptions'
 date = '2024-05-08'
 draft = false
