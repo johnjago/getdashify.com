@@ -1,26 +1,23 @@
 [[section]]
 title = "Up next"
-description = "Things we plan to add to Dashify in the near future."
+description = "Things we plan to add in the near future."
 bgColor = "bg-yellow-600"
 
 [[section.item]]
-title = "Order duplication"
-description = "Intuitive order duplication that lets you choose which information to copy to the new order."
-
-[[section.item]]
-title = "Restyled top admin bar"
-description = "WordPress branding will be removed, and store actions like search and recent activity will be quickly accessible."
-
-[[section.item]]
-title = "Recent store activity feed"
-description = "Get a feed of what’s been happening on your store. Orders, admin user actions, and everything else."
-
-[[section.item]]
 title = "Restyled coupons list & edit"
+description = "The Dashify theme expanded to include the WooCommerce coupons list and edit pages."
 
 [[section.item]]
 title = "Restyled product edit page"
 description = "Although WooCommerce has a new product editor in beta, Dashify will restyle the existing one for a uniform look throughout the dashboard."
+
+[[section.item]]
+title = "Restyled top admin bar"
+description = "With a fresh design, the WordPress branding will be hidden, and store actions will be a click away."
+
+[[section.item]]
+title = "Recent order feed"
+description = "Get notifications about recent orders in the admin bar and jump to them quickly."
 
 [[section.item]]
 title = "Search products from any admin page"
@@ -34,18 +31,6 @@ description = "Don’t know where to find something in all the tabs? Search for 
 title = "Shortcuts"
 description = "Set up shortcuts to different areas of WooCommerce or other plugins."
 
-[[section.item]]
-title = "Live analytics"
-description = "See online visitors, product views, order counts, and other key numbers in a single, automatically updating dashboard."
-
-[[section.item]]
-title = "Move admin menu items"
-description = "Change the position of admin menu items without third-party plugins."
-
-[[section.item]]
-title = "Hide admin menu items"
-description = "Make certain admin menu items hidden."
-
 
 
 [[section]]
@@ -54,10 +39,8 @@ description = "What we’re building now."
 bgColor = "bg-blue-600"
 
 [[section.item]]
-title = "Order edit view visual improvements"
-
-[[section.item]]
-title = "Restyled WooCommerce settings"
+title = "Visual improvements to the edit order page"
+description = "Since it’s one of the most used parts of the admin, we want it to be really good."
 
 
 
@@ -65,6 +48,18 @@ title = "Restyled WooCommerce settings"
 title = "Released"
 description = "What’s been completed."
 bgColor = "bg-green-600"
+
+[[section.item]]
+title = "Restyled WooCommerce settings"
+description = "With WooCommerce settings having the Dashify theme, you’ll find the tabs more manageable, the appearance cleaner, and you’ll see more info about the store."
+date = 2025-01-08
+link = "/releases/2025-01-08-dashify-pro-1.5.0/"
+
+[[section.item]]
+title = "Search by custom order number in the global search"
+description = "If you have a plugin allows you to customize the order number, you can search for those in the Dashify Pro global search."
+date = 2025-01-08
+link = "/releases/2025-01-08-dashify-pro-1.5.0/"
 
 [[section.item]]
 title = "Sort order items by menu order"
@@ -118,8 +113,24 @@ link = "/releases/2024-08-09-woocommerce-focused-navigation/"
 
 [[section]]
 title = "Ideas"
-description = "Things Dashify users have suggested but that we don’t have plans to do yet."
+description = "Suggestions we love, but that we don’t have time for yet."
 bgColor = "bg-gray-600"
+
+[[section.item]]
+title = "Live analytics"
+description = "See online visitors, product views, order counts, and other key numbers in a single, automatically updating dashboard."
+
+[[section.item]]
+title = "Move admin menu items"
+description = "Change the position of admin menu items without third-party plugins."
+
+[[section.item]]
+title = "Hide admin menu items"
+description = "The ability to make certain menu items hidden."
+
+[[section.item]]
+title = "Order duplication"
+description = "Intuitive order duplication that lets you choose which information to copy to the new order."
 
 [[section.item]]
 title = "View orders from all stores in a WordPress multisite installation"
