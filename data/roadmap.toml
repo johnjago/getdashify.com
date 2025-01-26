@@ -117,6 +117,10 @@ description = "Suggestions we love, but that we don’t have time for yet."
 bgColor = "bg-gray-600"
 
 [[section.item]]
+title = "One time payment, lifetime license"
+description = "After the Dashify theme is more complete, we’ll offer a new payment option: a lifetime license for a one time payment."
+
+[[section.item]]
 title = "Live analytics"
 description = "See online visitors, product views, order counts, and other key numbers in a single, automatically updating dashboard."
 
