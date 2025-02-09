@@ -57,12 +57,9 @@
 	<script>
 		const tabs = document.querySelectorAll('.tab');
 		const tabIds = ['all', 'free', 'pro'];
-		const articles = document.querySelectorAll('article');
-
 		for (const tab of tabs) {
 			tab.addEventListener('click', event => {
 				const clickedId = event.target.id;
-
 				for (const id of tabIds) {
 					const element = document.querySelector(`#${id}`);
 					element.classList.toggle('bg-[#dcc6cd]', id === clickedId);
@@ -70,23 +67,45 @@
 					element.classList.toggle('bg-transparent', id !== clickedId);
 					element.classList.toggle('font-normal', id !== clickedId);
 				}
-
-				// Handle article visibility
-				for (const article of articles) {
-					const isPro = article.getAttribute('data-dashify-pro') === 'true';
-					switch (clickedId) {
-						case 'all':
-							article.classList.remove('hidden');
-							break;
-						case 'free':
-							article.classList.toggle('hidden', isPro);
-							break;
-						case 'pro':
-							article.classList.toggle('hidden', !isPro);
-							break;
-					}
-				}
+				setArticleVisibility(clickedId);
 			});
+		}
+
+		// If the URL has ?tab=free or ?tab-pro query param, show the respective
+		// releases. This is used for the “View version x details” link in the installed
+		// plugins list, but can be generally useful for linking to the specific set
+		// of releases.
+		const params = new URLSearchParams(window.location.search);
+		const tab = params.get('tab');
+		setArticleVisibility(tab);
+
+		function setArticleVisibility(tab) {
+			if (!tab) {
+				return;
+			}
+			for (const article of document.querySelectorAll('article')) {
+				const isPro = article.getAttribute('data-dashify-pro') === 'true';
+				switch (tab) {
+					case 'all':
+						article.classList.remove('hidden');
+						break;
+					case 'free':
+						article.classList.toggle('hidden', isPro);
+						break;
+					case 'pro':
+						article.classList.toggle('hidden', !isPro);
+						break;
+				}
+			}
+			updateQueryParam('tab', tab);
+		}
+
+		function updateQueryParam(param, value) {
+			if ('URLSearchParams' in window) {
+				const url = new URL(window.location);
+				url.searchParams.set(param, value);
+				history.pushState(null, '', url);
+			}
 		}
 	</script>
 </div>
