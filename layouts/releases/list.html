@@ -52,19 +52,9 @@
 		</div>
 	</section>
 	<script>
-		const tabs = document.querySelectorAll('.tab');
-		const tabIds = ['all', 'free', 'pro'];
-		for (const tab of tabs) {
+		for (const tab of document.querySelectorAll('.tab')) {
 			tab.addEventListener('click', event => {
-				const clickedId = event.target.id;
-				for (const id of tabIds) {
-					const element = document.querySelector(`#${id}`);
-					element.classList.toggle('bg-[#dcc6cd]', id === clickedId);
-					element.classList.toggle('font-semibold', id === clickedId);
-					element.classList.toggle('bg-transparent', id !== clickedId);
-					element.classList.toggle('font-normal', id !== clickedId);
-				}
-				setArticleVisibility(clickedId);
+				switchToTab(event.target.id);
 			});
 		}
 
@@ -73,16 +63,22 @@
 		// plugins list, but can be generally useful for linking to the specific set
 		// of releases.
 		const params = new URLSearchParams(window.location.search);
-		const tab = params.get('tab');
-		setArticleVisibility(tab);
+		switchToTab(params.get('tab'));
 
-		function setArticleVisibility(tab) {
-			if (!tab) {
+		function switchToTab(tabID) {
+			if (!tabID) {
 				return;
+			}
+			for (const id of ['all', 'free', 'pro']) {
+				const element = document.querySelector(`#${id}`);
+				element.classList.toggle('bg-[#dcc6cd]', id === tabID);
+				element.classList.toggle('font-semibold', id === tabID);
+				element.classList.toggle('bg-transparent', id !== tabID);
+				element.classList.toggle('font-normal', id !== tabID);
 			}
 			for (const article of document.querySelectorAll('article')) {
 				const isPro = article.getAttribute('data-dashify-pro') === 'true';
-				switch (tab) {
+				switch (tabID) {
 					case 'all':
 						article.classList.remove('hidden');
 						break;
@@ -94,7 +90,7 @@
 						break;
 				}
 			}
-			updateQueryParam('tab', tab);
+			updateQueryParam('tab', tabID);
 		}
 
 		function updateQueryParam(param, value) {
