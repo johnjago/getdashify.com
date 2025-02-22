@@ -1,145 +1,114 @@
 [[section]]
-title = "Up next"
-description = "Things we plan to add in the near future."
-bgColor = "bg-yellow-600"
-
+	title = "Up next"
+	description = "Things we plan to add in the near future."
+	bgColor = "bg-yellow-600"
 [[section.item]]
-title = "Restyled coupons list & edit"
-description = "The Dashify theme expanded to include the WooCommerce coupons list and edit pages."
-
+	title = "Restyled coupons list & edit"
+	description = "The Dashify theme expanded to include the WooCommerce coupons list and edit pages."
 [[section.item]]
-title = "Restyled product edit page"
-description = "Although WooCommerce has a new product editor in beta, Dashify will restyle the existing one for a uniform look throughout the dashboard."
-
+	title = "Restyled product edit page"
+	description = "Although WooCommerce has a new product editor in beta, Dashify will restyle the existing one for a uniform look throughout the dashboard."
 [[section.item]]
-title = "Restyled top admin bar"
-description = "With a fresh design, the WordPress branding will be hidden, and store actions will be a click away."
-
+	title = "Restyled top admin bar"
+	description = "With a fresh design, the WordPress branding will be hidden, and store actions will be a click away."
 [[section.item]]
-title = "Recent order feed"
-description = "Get notifications about recent orders in the admin bar and jump to them quickly."
-
+	title = "Recent order feed"
+	description = "Get notifications about recent orders in the admin bar and jump to them quickly."
 [[section.item]]
-title = "Search products from any admin page"
-description = "Dashify’s quick search will let you search not just orders, but products too."
-
+	title = "Search products from any admin page"
+	description = "Dashify’s quick search will let you search not just orders, but products too."
 [[section.item]]
-title = "Search all WooCommerce settings"
-description = "Don’t know where to find something in all the tabs? Search for the setting you want to change."
-
+	title = "Search all WooCommerce settings"
+	description = "Don’t know where to find something in all the tabs? Search for the setting you want to change."
 [[section.item]]
-title = "Shortcuts"
-description = "Set up shortcuts to different areas of WooCommerce or other plugins."
-
-
+	title = "Shortcuts"
+	description = "Set up shortcuts to different areas of WooCommerce or other plugins."
 
 [[section]]
-title = "Working on"
-description = "What we’re building now."
-bgColor = "bg-blue-600"
-
+	title = "Working on"
+	description = "What we’re building now."
+	bgColor = "bg-blue-600"
 [[section.item]]
-title = "Visual improvements to the edit order page"
-description = "Since it’s one of the most used parts of the admin, we want it to be really good."
-
-
+	title = "Compatibility and bug fixes"
+	description = "Keeping Dashify stable and working well for all stores."
 
 [[section]]
-title = "Released"
-description = "What’s been completed."
-bgColor = "bg-green-600"
-
+	title = "Released"
+	description = "What’s been completed."
+	bgColor = "bg-green-600"
 [[section.item]]
-title = "Restyled WooCommerce settings"
-description = "With WooCommerce settings having the Dashify theme, you’ll find the tabs more manageable, the appearance cleaner, and you’ll see more info about the store."
-date = 2025-01-08
-link = "/releases/2025-01-08-dashify-pro-1.5.0/"
-
+	title = "Restyled WooCommerce settings"
+	description = "With WooCommerce settings having the Dashify theme, you’ll find the tabs more manageable, the appearance cleaner, and you’ll see more info about the store."
+	date = 2025-01-08
+	link = "/releases/2025-01-08-dashify-pro-1.5.0/"
 [[section.item]]
-title = "Search by custom order number in the global search"
-description = "If you have a plugin allows you to customize the order number, you can search for those in the Dashify Pro global search."
-date = 2025-01-08
-link = "/releases/2025-01-08-dashify-pro-1.5.0/"
-
+	title = "Search by custom order number in the global search"
+	description = "If you have a plugin allows you to customize the order number, you can search for those in the Dashify Pro global search."
+	date = 2025-01-08
+	link = "/releases/2025-01-08-dashify-pro-1.5.0/"
 [[section.item]]
-title = "Sort order items by menu order"
-description = "You’ll be able to sort the line items in a customer’s order by the same custom sort you’ve set in the WooCommerce product list."
-date = 2024-10-30
-link = "/releases/2024-10-30-line-item-menu-order-sort/"
-
+	title = "Sort order items by menu order"
+	description = "You’ll be able to sort the line items in a customer’s order by the same custom sort you’ve set in the WooCommerce product list."
+	date = 2024-10-30
+	link = "/releases/2024-10-30-line-item-menu-order-sort/"
 [[section.item]]
-title = "Search result count"
-description = "In the order, subscription, and product list search results, see the total number of matches for that query."
-date = 2024-10-30
-link = "/releases/2024-10-30-search-result-count/"
-
+	title = "Search result count"
+	description = "In the order, subscription, and product list search results, see the total number of matches for that query."
+	date = 2024-10-30
+	link = "/releases/2024-10-30-search-result-count/"
 [[section.item]]
-title = "Search orders by SKU"
-description = "Find orders that have a certain product SKU through the Dashify Pro global search."
-date = 2024-09-12
-link = "/releases/2024-09-12-expanded-global-order-search/"
-
+	title = "Search orders by SKU"
+	description = "Find orders that have a certain product SKU through the Dashify Pro global search."
+	date = 2024-09-12
+	link = "/releases/2024-09-12-expanded-global-order-search/"
 [[section.item]]
-title = "Search orders by customer name, email, or phone"
-description = "From the global search in Dashify Pro, find orders by these customer details."
-date = 2024-09-12
-link = "/releases/2024-09-12-expanded-global-order-search/"
-
+	title = "Search orders by customer name, email, or phone"
+	description = "From the global search in Dashify Pro, find orders by these customer details."
+	date = 2024-09-12
+	link = "/releases/2024-09-12-expanded-global-order-search/"
 [[section.item]]
-title = "Bulk actions support for third-party plugins"
-description = "Dashify’s floating bulk actions will show actions from any third-party plugin. Plus, they will be shown in the chosen admin language, not only English."
-date = 2024-09-04
-link = "/releases/2024-09-04-bulk-actions-compatibility/"
-
+	title = "Bulk actions support for third-party plugins"
+	description = "Dashify’s floating bulk actions will show actions from any third-party plugin. Plus, they will be shown in the chosen admin language, not only English."
+	date = 2024-09-04
+	link = "/releases/2024-09-04-bulk-actions-compatibility/"
 [[section.item]]
-title = "Compatibility with Admin Menu Editor"
-description = "The Dashify WooCommerce-focused navigation will allow changes to be made through the Admin Menu Editor plugin, and it will respect existing configuration."
-date = 2024-08-27
-link = "/releases/2024-08-27-admin-menu-editor-compatibility/"
-
+	title = "Compatibility with Admin Menu Editor"
+	description = "The Dashify WooCommerce-focused navigation will allow changes to be made through the Admin Menu Editor plugin, and it will respect existing configuration."
+	date = 2024-08-27
+	link = "/releases/2024-08-27-admin-menu-editor-compatibility/"
 [[section.item]]
-title = "Restyled product list"
-description = "The “All Products” page in WooCommerce will have the same modern and convenient styling as the order list."
-date = 2024-08-17
-link = "/releases/2024-08-17-restyled-product-list/"
-
+	title = "Restyled product list"
+	description = "The “All Products” page in WooCommerce will have the same modern and convenient styling as the order list."
+	date = 2024-08-17
+	link = "/releases/2024-08-17-restyled-product-list/"
 [[section.item]]
-title = "WooCommerce-focused admin navigation"
-description = "Making it modern and ecommerce-focused! WooCommerce pages such as orders will be made more prominent. You’ll be able to turn this off if it doesn’t suit the store."
-date = 2024-08-09
-link = "/releases/2024-08-09-woocommerce-focused-navigation/"
-
-
+	title = "WooCommerce-focused admin navigation"
+	description = "Making it modern and ecommerce-focused! WooCommerce pages such as orders will be made more prominent. You’ll be able to turn this off if it doesn’t suit the store."
+	date = 2024-08-09
+	link = "/releases/2024-08-09-woocommerce-focused-navigation/"
 
 [[section]]
-title = "Ideas"
-description = "Suggestions we love, but that we don’t have time for yet."
-bgColor = "bg-gray-600"
-
+	title = "Ideas"
+	description = "Suggestions we love, but that we don’t have time for yet."
+	bgColor = "bg-gray-600"
 [[section.item]]
-title = "One time payment, lifetime license"
-description = "After the Dashify theme is more complete, we’ll offer a new payment option: a lifetime license for a one time payment."
-
+	title = "One time payment, lifetime license"
+	description = "After the Dashify theme is more complete, we’ll offer a new payment option: a lifetime license for a one time payment."
 [[section.item]]
-title = "Live analytics"
-description = "See online visitors, product views, order counts, and other key numbers in a single, automatically updating dashboard."
-
+	title = "Live analytics"
+	description = "See online visitors, product views, order counts, and other key numbers in a single, automatically updating dashboard."
 [[section.item]]
-title = "Move admin menu items"
-description = "Change the position of admin menu items without third-party plugins."
-
+	title = "Move admin menu items"
+	description = "Change the position of admin menu items without third-party plugins."
 [[section.item]]
-title = "Hide admin menu items"
-description = "The ability to make certain menu items hidden."
-
+	title = "Hide admin menu items"
+	description = "The ability to make certain menu items hidden."
 [[section.item]]
-title = "Order duplication"
-description = "Intuitive order duplication that lets you choose which information to copy to the new order."
-
+	title = "Order duplication"
+	description = "Intuitive order duplication that lets you choose which information to copy to the new order."
 [[section.item]]
-title = "View orders from all stores in a WordPress multisite installation"
-description = "Through a single interface, you’d be able to see orders across all WooCommerce stores in a multisite network."
-
+	title = "View orders from all stores in a WordPress multisite installation"
+	description = "Through a single interface, you’d be able to see orders across all WooCommerce stores in a multisite network."
 [[section.item]]
-title = "Widget for a table of orders in shopper-facing pages"
-description = "It would be similar to [WooCommerce Order List Table for Elementor](https://wordpress.org/plugins/order-list-table-elementor-widget/), but not only for Elementor."
+	title = "Widget for a table of orders in shopper-facing pages"
+	description = "It would be similar to [WooCommerce Order List Table for Elementor](https://wordpress.org/plugins/order-list-table-elementor-widget/), but not only for Elementor."
