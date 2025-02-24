@@ -118,3 +118,6 @@
 [[section.item]]
 	title = "Dashify theme extensibility"
 	description = "When doing custom development for the WordPress admin, you’ll be able to make use of the Dashify theme for a consistent look."
+[[section.item]]
+	title = "Collapsible admin menu"
+	description = "Minimize the admin menu sidebar, like you can with the regular WordPress admin menu."
