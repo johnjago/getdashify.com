@@ -2,5 +2,5 @@
 title = ''
 slug = ''
 date = {{ .Date }}
-version = ''
+pro = false
 +++
