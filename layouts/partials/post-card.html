@@ -1,0 +1,13 @@
+<article class="relative p-8 rounded-2xl shadow hover:shadow-lg bg-[#dfcad13d] transition">
+	<time
+		datetime='{{ .Date.Format "2006-01-02" }}'
+		class="font-mono text-sm text-gray-500 mb-4 block"
+	>{{ .Date.Format "2006-01-02" }}</time>
+	<h3>
+		<a
+			href="{{ .Permalink }}"
+			class="font-semibold text-xl hover:underline decoration-gray-400 after:absolute after:top-0 after:left-0 after:bottom-0 after:right-0"
+		>{{ .Title }}</a>
+	</h3>
+	<p class="mt-4">{{ .Summary }}</p>
+</article>
