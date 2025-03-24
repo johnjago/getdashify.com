@@ -3,26 +3,26 @@
 	description = "Things we plan to add in the near future."
 	bgColor = "bg-yellow-600"
 [[section.item]]
+	title = "Restyled admin bar"
+	description = "With a fresh design, the WordPress branding will be hidden, and store actions will be a click away."
+[[section.item]]
+	title = "Translations support"
+	description = "Contribute translations to Dashify through translate.wordpress.org."
+[[section.item]]
 	title = "Restyled coupons list & edit"
 	description = "The Dashify theme expanded to include the WooCommerce coupons list and edit pages."
 [[section.item]]
 	title = "Restyled product edit page"
 	description = "Although WooCommerce has a new product editor in beta, Dashify will restyle the existing one for a uniform look throughout the dashboard."
 [[section.item]]
-	title = "Restyled top admin bar"
-	description = "With a fresh design, the WordPress branding will be hidden, and store actions will be a click away."
+	title = "Dashify Search: Partial matches"
+	description = "Dashify Pro’s global search will match partial names, emails, and phone nubmers, just like WooCommerce does."
 [[section.item]]
-	title = "Recent order feed"
-	description = "Get notifications about recent orders in the admin bar and jump to them quickly."
+	title = "Dashify Search: Products"
+	description = "Dashify Pro’s global search will let you search not just orders, but products too."
 [[section.item]]
-	title = "Partial match global order search"
-	description = "Dashify’s quick search will match partial names, emails, etc., just like WooCommerce does."
-[[section.item]]
-	title = "Search products from any admin page"
-	description = "Dashify’s quick search will let you search not just orders, but products too."
-[[section.item]]
-	title = "Search all WooCommerce settings"
-	description = "Don’t know where to find something in all the tabs? Search for the setting you want to change."
+	title = "Dashify Search: WooCommerce settings"
+	description = "Don’t know where to find a setting in all the tabs? With Dashify Search, you’ll be able to search across all settings."
 
 [[section]]
 	title = "Working on"
@@ -92,11 +92,14 @@
 	description = "Suggestions we love, but that we don’t have time for yet."
 	bgColor = "bg-gray-600"
 [[section.item]]
-	title = "One time payment, lifetime license"
-	description = "After the Dashify theme is more complete, we’ll offer a new payment option: a lifetime license for a one time payment."
+	title = "Lifetime license"
+	description = "After the Dashify theme is more complete, we’ll offer a lifetime license for a one time payment."
 [[section.item]]
 	title = "Store dashboard"
 	description = "See live data about orders, sales, customers, and other key information on a home dashboard designed for WooCommerce."
+[[section.item]]
+	title = "Recent order feed"
+	description = "Get notifications about recent orders in the admin bar and jump to them quickly."
 [[section.item]]
 	title = "Built-in admin menu editor"
 	description = "Add, edit, and remove items from the admin navigation menu without additional plugins."
