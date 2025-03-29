@@ -67,8 +67,8 @@
 	image = "product-list-table-only.webp"
 	imageAlt = "Screenshot of the WooCommerce product list with Dashify enabled. The table that shows all the products has a modern design, and elements of the page are grouped intuitively. For example, all searching and filtering happens at the top of the table, after clicking a search and filter icon."
 [[features.pro]]
-	title = "Fast, global order search"
-	description = "Use Dashify’s global search to jump to an order from any page in the admin. Search by order ID, name, email, phone, or product SKU."
+	title = "Order search from the admin bar"
+	description = "Search and go to orders from any admin page. Search by order ID, name, email, phone, or product SKU."
 	image = "global-search.webp"
 	imageAlt = "Screenshot of the WordPress admin dashboard, with a popup search appearing over the dashboard that shows a result showing for a searched query, along with a few recent orders. The ID, status, name, and date of the orders are previewed."
 	action = "Learn about Dashify Search →"
