@@ -13,7 +13,7 @@ We’ll be happy to help and are eager to hear what you have to say. 🙂
 
 ## Expected response time
 
-We’ll aim to get back to you within **3 business days**.
+We’ll try to get back to you within **3 business days**, but at times we may be busier.
 
 ## Do I need to pay for Dashify Pro to get support?
 
