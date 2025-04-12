@@ -11,10 +11,14 @@ We’ll be happy to help and are eager to hear what you have to say. 🙂
 - Submit a [help desk ticket](https://forms.gle/pRezSbdUcZmvZdX27)
 - Post in the [support forum on WordPress.org](https://wordpress.org/support/plugin/dashify/)
 
-## Expected response time
+## Response time
 
-We’ll try to get back to you within **3 business days**, but at times we may be busier.
+Dashify is a passion project to make WooCommerce better, and we get lots of
+messages, so we’ll do our best to respond as quickly as we can. During busy
+times however, it may take **about one week**. Thank you for your patience and
+support!
 
 ## Do I need to pay for Dashify Pro to get support?
 
-No. We offer free assistance to everyone using Dashify, whether you purchased the Pro version or not.
+No. We offer free assistance to everyone using Dashify, whether you purchased
+the Pro version or not.
