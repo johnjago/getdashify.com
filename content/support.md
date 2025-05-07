@@ -15,7 +15,7 @@ We’ll be happy to help and are eager to hear what you have to say. 🙂
 
 Dashify is a passion project to make WooCommerce better, and we get lots of
 messages, so we’ll do our best to respond as quickly as we can. During busy
-times however, it may take **about one week**. Thank you for your patience and
+times however, it may take **a week or two**. Thank you for your patience and
 support!
 
 ## Do I need to pay for Dashify Pro to get support?
