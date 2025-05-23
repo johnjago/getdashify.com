@@ -124,3 +124,6 @@
 [[section.item]]
 	title = "Collapsible admin menu"
 	description = "Minimize the admin menu sidebar, like you can with the regular WordPress admin menu."
+[[section.item]]
+	title = "Saved order filters"
+	description = "After searching and applying filters, you’ll be able to save them so they’re just a button click away."
