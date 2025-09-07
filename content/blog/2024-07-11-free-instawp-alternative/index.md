@@ -12,8 +12,6 @@ date = 2024-07-11T15:03:22-05:00
 </div>
 {{< /rawhtml >}}
 
----
-
 I’ve been developing WordPress sites for nearly 6 years now, and one thing I’ve found myself doing over and over is creating temporary WordPress sites to quickly test configurations, plugins, and themes on a fresh install of WordPress.
 
 There are several ways to do this, but with my favorite one, InstaWP, has limitations in its free plan. Luckily, there’s an alternative that doesn’t cost money and gives you unlimited sites.

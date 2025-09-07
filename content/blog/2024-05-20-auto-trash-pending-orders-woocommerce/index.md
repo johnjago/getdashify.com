@@ -13,8 +13,6 @@ draft = false
 </div>
 {{< /rawhtml >}}
 
-***
-
 In WooCommerce, it’s possible to delete pending orders, which are unpaid and likely abandoned, after a given amount of time to help keep your order list clean. The steps below show you how to enable this.
 
 1. From the WordPress dashboard, navigate to **WooCommerce → Settings** in the left sidebar.

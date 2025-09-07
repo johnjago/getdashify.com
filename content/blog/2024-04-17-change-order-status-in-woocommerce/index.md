@@ -18,8 +18,6 @@ summary = 'All the ways you can manually change the order status of an order in 
 </div>
 {{< /rawhtml >}}
 
----
-
 ## Change order status from the order list
 
 ### Using the order preview

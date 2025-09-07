@@ -13,8 +13,6 @@ draft = false
 </div>
 {{< /rawhtml >}}
 
-***
-
 1. From the WordPress dashboard, navigate to **WooCommerce → Settings** in the left sidebar.
 2. Click on the “**Products**” tab.
 3. Scroll down to the Reviews section and uncheck the box labeled “**Enable product reviews**”.

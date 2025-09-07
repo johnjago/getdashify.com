@@ -12,8 +12,6 @@ date = 2024-09-14T14:00:22-05:00
 </div>
 {{< /rawhtml >}}
 
----
-
 You might be making a move from Shopify to WooCommerce for a lower cost, for custom needs that Shopify cannot meet, or for a number of other reasons.
 
 Whatever the case may be, until recently you—or your entire team—would have no choice but to get familiar with the WooCommerce admin interface.

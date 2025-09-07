@@ -14,8 +14,6 @@ summary = 'Energy+, the perhaps the only WooCommerce plugin out there that also 
 </div>
 {{< /rawhtml >}}
 
----
-
 ## What is the alternative?
 
 [Dashify](https://wordpress.org/plugins/dashify/) is a new WordPress plugin that not only adds a fresh theme to the WooCommerce admin order pages, but also introduces new productivity features.

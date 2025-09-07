@@ -13,8 +13,6 @@ draft = false
 </div>
 {{< /rawhtml >}}
 
-***
-
 This is a setting that is part of WooCommerce, so no custom code or plugins are required. Follow the steps below to enable this feature in WooCommerce.
 
 1. From the WordPress dashboard, navigate to **WooCommerce → Settings** in the left sidebar.

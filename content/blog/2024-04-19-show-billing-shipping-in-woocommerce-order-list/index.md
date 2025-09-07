@@ -13,8 +13,6 @@ summary = 'How to display the customer’s billing address and shipping address 
 </div>
 {{< /rawhtml >}}
 
----
-
 ## The not so obvious Screen Options
 
 It may not be obvious at first, but the WooCommerce orders page has a button called **Screen Options** which allows you to change which columns are shown in the order table.

@@ -13,8 +13,6 @@ draft = false
 </div>
 {{< /rawhtml >}}
 
----
-
 If you’ve seen these sale banners on products in your WooCommerce store, and you want them gone, here’s how you can do it while still keeping the items on sale.
 
 ![Screenshot of the sale badges on items on the shop page of a WooCommerce store.](/blog/astra-remove-sale-badge/shop-page-sale-badges.webp)

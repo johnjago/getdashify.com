@@ -13,8 +13,6 @@ draft = false
 </div>
 {{< /rawhtml >}}
 
----
-
 For those who use WooCommerce regularly, you may have noticed that late last year, they changed all their branding from WooCommerce to Woo. Here is the announcement post:
 
 ![Screenshot of the top of the article where WooCommerce announced a branding change, most notably replacing nearly all mentions of “WooCommerce” on their site with “Woo”, and switching the domain to woo.com](/blog/failed-woo-rebrand/announcement-post.webp)

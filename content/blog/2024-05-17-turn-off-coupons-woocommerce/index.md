@@ -13,8 +13,6 @@ draft = false
 </div>
 {{< /rawhtml >}}
 
-***
-
 If you want to hide the coupon fields from the cart and checkout pages in WooCommerce, it’s possible by turning off a setting. There is no need for custom code or plugins.
 
 Follow these steps to turn off the coupon fields.

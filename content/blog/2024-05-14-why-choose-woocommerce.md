@@ -14,8 +14,6 @@ draft = false
 </div>
 {{< /rawhtml >}}
 
----
-
 ## You want to publish a lot of content on the site
 
 It could be blog posts, guides, documentation, and other content where you’ll be creating a lot of the same or different types. These pieces of content might have a lot of text, images, videos, or a combination of those.

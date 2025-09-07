@@ -13,8 +13,6 @@ summary = 'If a plugin you want to use is not compatible with HPOS, here is how 
 </div>
 {{< /rawhtml >}}
 
----
-
 ## How to turn off HPOS, step-by-step
 
 Turning off HPOS takes just a few clicks.

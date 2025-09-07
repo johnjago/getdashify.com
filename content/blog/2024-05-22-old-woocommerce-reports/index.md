@@ -13,8 +13,6 @@ draft = false
 </div>
 {{< /rawhtml >}}
 
-***
-
 1. Go to the WordPress dashboard.
 2. On the left, under **WooCommerce**, click **Reports**.
 
