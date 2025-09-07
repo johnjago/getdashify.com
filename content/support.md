@@ -2,23 +2,25 @@
 title = 'Get help from the Dashify team'
 +++
 
-Have a problem with Dashify or want to send us feedback?
+Have a problem with Dashify or want to send feedback?
 
-We’ll be happy to help and are eager to hear what you have to say. 🙂
+We’ll be happy to help, and we will listen to your suggestions. 🙂
 
-## Ways to contact us
+To contact us, you can:
 
-- Submit a [help desk ticket](https://forms.gle/pRezSbdUcZmvZdX27)
-- Post in the [support forum on WordPress.org](https://wordpress.org/support/plugin/dashify/)
+- submit a [help desk ticket](https://forms.gle/pRezSbdUcZmvZdX27)
+- post in the [support forum on WordPress.org](https://wordpress.org/support/plugin/dashify/)
 
-## Response time
+## You may be wondering…
+
+### When will I hear back?
 
 Dashify is a passion project to make WooCommerce better, and we get lots of
 messages, so we’ll do our best to respond as quickly as we can. During busy
-times however, it may take **a week or two**. Thank you for your patience and
-support!
+times however, it may take **a few weeks**, as this is not our primary
+employment. Thank you for your patience and support!
 
-## Do I need to pay for Dashify Pro to get support?
+### Do I need to pay for Dashify Pro to get support?
 
-No. We offer free assistance to everyone using Dashify, whether you purchased
+No. We offer free assistance to everyone using Dashify, whether you purchase
 the Pro version or not.
