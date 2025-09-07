@@ -5,6 +5,7 @@
 	<article class="prose prose-lg prose-h2:text-2xl prose-h3:text-xl max-w-none">
 		{{ .Content }}
 	</article>
+	{{ if ne .Params.section "news" }}
 	<div class="bg-[#804D79E3] mt-28 mx-auto p-8 text-gray-50 rounded-lg flex flex-col gap-4">
 		<p class="prose prose-lg text-gray-50 mx-auto">
 			Thanks for reading! By the way, we’re the creators of Dashify, a WooCommerce plugin which gives the WordPress admin a modern, ecommerce-centric design to make managing a store more efficient.
@@ -15,5 +16,13 @@
 			</a>
 		</div>
 	</div>
+	{{ else }}
+	<div class="mt-24 mx-auto text-center">
+		<a
+			href="/blog/"
+			class="text-lg font-semibold text-[#804D79] border-2 border-[#804D79E3] rounded-lg py-4 px-8 hover:bg-gray-100 transition"
+		>All blog posts</a>
+	</div>
+	{{ end }}
 </article>
 {{ end }}
